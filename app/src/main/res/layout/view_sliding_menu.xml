@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#fff"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:paddingRight="20dp"
+        android:text="Azad Humbatli"
+        android:textAllCaps="true"
+        android:textColor="#474747"
+        android:textSize="28sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="2dp"
+        android:paddingRight="20dp"
+        android:background="#aaa" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:paddingRight="20dp"
+        android:textStyle="bold"
+        android:paddingTop="5dp"
+        android:text="Profil"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:paddingTop="5dp"
+        android:paddingRight="20dp"
+        android:textStyle="bold"
+        android:text="Biletlərim"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:paddingRight="20dp"
+        android:textStyle="bold"
+        android:paddingTop="5dp"
+        android:text="Qaydalar"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        android:textStyle="bold"
+        android:text="Haqqımızda"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:paddingRight="20dp"
+        android:textStyle="bold"
+        android:paddingTop="5dp"
+        android:text="Çıxış"
+        android:textSize="22sp" />
+
+</LinearLayout>

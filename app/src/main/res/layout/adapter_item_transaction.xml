@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:background="#fff"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/trans_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20/12/2016 22:22"
+        android:textColor="#414141"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/trans_method"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Ödəniş kartindan"
+        android:textColor="#e70a19"
+        />
+
+    <TextView
+        android:id="@+id/trans_card_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/trans_method"
+        android:layout_alignParentRight="true"
+        android:text="6565-4789-5412-0012"
+        android:textStyle="bold"
+        android:textColor="#e70a19"
+        />
+
+    <LinearLayout
+        android:id="@+id/trans_layout"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/trans_card_number"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="40dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/trans_icon"
+            android:layout_width="wrap_content"
+            android:paddingRight="10dp"
+            android:src="@drawable/ic_trans_paid"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/trans_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Пополнение баланса"
+            android:maxLength="23"
+            android:textSize="18sp"
+            />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/trans_order_number"
+        android:layout_below="@+id/trans_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20160905D2780000014"
+        android:textColor="#414141"
+        android:paddingBottom="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/trans_amount"
+        android:layout_width="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/trans_card_number"
+        android:layout_toLeftOf="@id/balance_currency"
+        android:text="1042"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+ <View
+     android:layout_width="match_parent"
+     android:layout_height="1dp"
+     android:background="#414141"
+     android:layout_below="@+id/trans_layout"
+     />
+
+    <TextView
+        android:id="@+id/balance_currency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="azn"
+        android:textColor="#474747"
+        android:textSize="15sp"
+        android:layout_alignBaseline="@+id/trans_amount"
+        android:layout_alignBottom="@+id/trans_amount"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

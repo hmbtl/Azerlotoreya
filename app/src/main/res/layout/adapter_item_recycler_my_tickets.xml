@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="5dp"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/ticket_game_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#de1623"
+            android:paddingBottom="7dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="7dp"
+            android:text="Binqo"
+            android:textAllCaps="true"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/draw_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingBottom="7dp"
+            android:paddingRight="10dp"
+            android:paddingTop="7dp"
+            android:text="tiraj #1456"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/ticket_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ticket_game_name"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="Bilet #12"
+            android:textColor="#474747"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/ticket_created_at"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ticket_id"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:text="2015-10-08 03:32:27" />
+
+
+
+        <TextView
+            android:id="@+id/label_ticket_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ticket_game_name"
+            android:layout_alignParentRight="true"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="@string/price" />
+
+        <TextView
+            android:id="@+id/ticket_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:layout_below="@+id/label_ticket_price"
+            android:paddingRight="10dp"
+            android:text="12,00 AZN"
+            android:textSize="22sp"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
+
+

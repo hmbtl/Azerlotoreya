@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true" />
+
+    <ListView
+        android:id="@+id/game_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:divider="@android:color/transparent"
+        android:clipToPadding="false"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:scrollbars="none" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_below="@+id/toolbar"
+        android:src="@drawable/shadow_bottom"
+        />
+
+</RelativeLayout>

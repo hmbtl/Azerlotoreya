@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    >
+
+    <Button
+        android:id="@+id/check_tickets"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_height="34dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingLeft="20dp"
+        android:textAllCaps="false"
+        android:paddingRight="20dp"
+        android:background="@drawable/button_rectangle_bordered_black"
+        android:elevation="5dp"
+        android:text="@string/check_ticket"
+        android:textColor="#fff"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:id="@+id/imageview_logo"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/app_logo" />
+
+
+    <LinearLayout
+        android:id="@+id/container_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/container_buttons"
+        android:layout_below="@+id/imageview_logo"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edittext_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#fff"
+                    android:drawableLeft="@drawable/ic_email"
+                    android:drawablePadding="20dp"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#474747" />
+
+
+                <EditText
+                    android:id="@+id/edittext_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#fff"
+                    android:drawableLeft="@drawable/ic_password"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="sans-serif"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/textview_button_forget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="left"
+            android:padding="5dp"
+            android:text="@string/did_you_forget_password"
+            android:textColor="@drawable/button_text_selector"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/container_forget_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/container_buttons"
+        android:layout_below="@+id/imageview_logo"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+
+        <EditText
+            android:id="@+id/edittext_email"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="#fff"
+            android:drawablePadding="20dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/textview_message_forget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp"
+            android:text="Sizin email ünvanınıza müvəqqəti kod göndəriləcək. İstifadəçinizə həmin kod ilə daxil olub şifrənizi dəyişə bilərsiniz"
+            android:textColor="#686868"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/container_login_with_pincode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/container_buttons"
+        android:layout_below="@+id/imageview_logo"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/edittext_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:background="#fff"
+                    android:drawablePadding="20dp"
+                    android:gravity="center|left"
+                    android:inputType="none"
+                    android:maxLines="1"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Azad Humbatli"
+                    android:textAllCaps="false"
+                    android:textColor="#545454"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#474747" />
+
+
+                <EditText
+                    android:id="@+id/edittext_pincode"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:background="#fff"
+                    android:drawablePadding="20dp"
+                    android:hint="Pin kod"
+                    android:singleLine="true"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:textColor="#474747"
+                    android:textColorHint="#999999" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/textview_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loginpincode_pincode"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="left"
+            android:padding="5dp"
+            android:text="@string/pincode_save_information"
+            android:textColor="#3c3c3c"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textview_button_forget_pincode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="left"
+            android:padding="5dp"
+            android:text="@string/did_you_forget_pincode"
+            android:textColor="@drawable/button_text_selector"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/container_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/button_blue"
+            android:elevation="5dp"
+            android:text="@string/login"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="@string/registration"
+            android:textColor="#3eb90c"
+            android:textSize="26sp"
+            android:textStyle="normal"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#afafaf" />
+
+        <TextView
+            android:id="@+id/textview_button_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:text="@string/register_button_test"
+            android:textAllCaps="false"
+            android:textColor="@drawable/button_text_selector"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

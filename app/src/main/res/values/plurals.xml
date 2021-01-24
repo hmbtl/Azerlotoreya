@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="day">
+        <item quantity="one">%1$d gün</item>
+        <item quantity="two">%1$d gün</item>
+        <item quantity="few">%1$d gün</item>
+        <item quantity="many">%1$d gün</item>
+        <item quantity="other">%1$d gün</item>
+    </plurals>
+    <plurals name="minute">
+        <item quantity="one">%1$d dəqiqə</item>
+        <item quantity="two">%1$d dəqiqə</item>
+        <item quantity="few">%1$d dəqiqə</item>
+        <item quantity="many">%1$d dəqiqə</item>
+        <item quantity="other">%1$d dəqiqə</item>
+    </plurals>
+    <plurals name="hour">
+        <item quantity="one">%1$d saat</item>
+        <item quantity="two">%1$d saat</item>
+        <item quantity="few">%1$d saat</item>
+        <item quantity="many">%1$d saat</item>
+        <item quantity="other">%1$d saat</item>
+    </plurals>
+</resources>

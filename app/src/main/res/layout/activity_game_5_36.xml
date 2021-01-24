@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:id="@+id/pick_numbers_ly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:background="#fff"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/game_pick_random_numbers"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_rectangle_bordered"
+            android:drawableLeft="@drawable/ic_dice"
+            android:drawablePadding="20dp"
+            android:gravity="center|left"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/fill_automatic"
+            android:textAllCaps="false"
+            android:textColor="#474747"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/select_numbers"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_rectangle_bordered"
+            android:drawableLeft="@drawable/ic_number_select"
+            android:drawablePadding="20dp"
+            android:gravity="left|center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/select_numbers"
+            android:textAllCaps="false"
+            android:textColor="#474747"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pick_tempalte_ly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pick_numbers_ly"
+        android:background="#fff"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/select_from_template"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_rectangle_bordered"
+            android:drawableLeft="@drawable/ic_template"
+            android:drawablePadding="20dp"
+            android:gravity="center|left"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/use_template"
+            android:textAllCaps="false"
+            android:textColor="#474747"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/create_template"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_rectangle_bordered"
+            android:drawableLeft="@drawable/ic_template_add"
+            android:drawablePadding="20dp"
+            android:gravity="left|center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/сreate_template"
+            android:textAllCaps="false"
+            android:textColor="#474747"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+
+
+    <ListView
+        android:id="@+id/selected_number_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ticket_buy_container"
+        android:layout_below="@+id/pick_tempalte_ly"
+        android:background="@android:color/transparent"
+        android:clipToPadding="false"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:scrollbars="none" />
+
+
+    <RelativeLayout
+        android:id="@+id/ticket_buy_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#fff"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/ticket_buy_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/total_amount"
+            android:background="@drawable/button_green"
+            android:gravity="center"
+            android:text="@string/buy"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/total_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ticket_buy_button"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/ticket_buy_button"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/amount"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_above="@id/ticket_buy_container"
+        android:src="@drawable/shadow_top" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_below="@+id/pick_tempalte_ly"
+        android:src="@drawable/shadow_bottom" />
+</RelativeLayout>

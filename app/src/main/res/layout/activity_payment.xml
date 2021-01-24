@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            card_view:cardCornerRadius="5dp"
+            card_view:cardElevation="1dp"
+            card_view:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:id="@+id/order_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:paddingBottom="20dp"
+                android:visibility="visible">
+
+
+                <TextView
+                    android:id="@+id/order_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#474747"
+                    android:gravity="center|left"
+                    android:paddingLeft="10dp"
+                    android:text="@string/order_info"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:id="@+id/order_customer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/order_title"
+                    android:gravity="center|left"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/customer_name"
+                    android:textColor="#474747"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/customer_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/order_title"
+                    android:layout_toRightOf="@+id/order_customer"
+                    android:gravity="center|right"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="10dp"
+                    android:text="Azad Humbatli"
+                    android:textColor="#646464"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+
+                <TextView
+                    android:id="@+id/order_seller"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/order_customer"
+                    android:gravity="center|left"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:text="@string/store_name"
+                    android:textColor="#474747"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/seller_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/customer_name"
+                    android:layout_toRightOf="@+id/order_seller"
+                    android:gravity="center|right"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text=" Azərlotoreya MMC"
+                    android:textColor="#646464"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/order_total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/order_seller"
+                    android:gravity="center|left"
+                    android:paddingLeft="20dp"
+                    android:text="@string/total_order"
+                    android:textColor="#474747"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/total"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/seller_name"
+                    android:layout_toRightOf="@+id/order_total"
+                    android:gravity="center|right"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="@string/total_order_info"
+                    android:textColor="#646464"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/success_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/success_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/ticket_buy_success_message"
+                    android:textColor="#474747"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:padding="12dp"
+                    android:src="@drawable/success_image" />
+
+                <TextView
+                    android:id="@+id/order_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Sifariş nömrəsi : q2143532GD"
+                    android:textColor="#51ba55"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="5dp"
+            card_view:cardElevation="2dp"
+            card_view:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignBottom="@+id/user_balance"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignTop="@+id/user_balance"
+                    android:layout_toLeftOf="@+id/user_balance"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    android:text="@string/balance_reminder"
+                    android:textSize="17sp"
+
+                    />
+
+
+                <TextView
+                    android:id="@+id/user_balance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:paddingRight="10dp"
+                    android:text="25.7 AZN"
+                    android:textSize="34sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:id="@+id/button_increase_balance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/user_balance"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_rectangle_bordered"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="15dp"
+                    android:text="@string/increase_balance"
+                    android:textAllCaps="true"
+                    android:textColor="#474747"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buy_tickets"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_green"
+                android:text="@string/buy_tickets"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_below="@+id/toolbar"
+        android:src="@drawable/shadow_bottom" />
+
+</RelativeLayout>

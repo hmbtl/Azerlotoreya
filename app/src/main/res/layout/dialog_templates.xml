@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/template_tickets"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#aaa" />
+
+
+    <ListView
+        android:id="@+id/dialog_list_templates"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@android:color/transparent"
+        android:clipToPadding="false"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:scrollbars="none" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#aaa" />
+
+    <LinearLayout
+        android:id="@+id/button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <View
+            android:layout_width="0.1dp"
+            android:layout_height="match_parent"
+            android:background="#aaa" />
+
+        <Button
+            android:id="@+id/dialog_templates_right_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/dialog_button_right"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

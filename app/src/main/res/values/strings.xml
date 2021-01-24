@@ -1,0 +1,383 @@
+ <resources>
+    <string name="app_name">Azerlotereya</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="amount">Məbləğ : xxx manat</string>
+    <string name="did_you_forget_password"><u>Şifrənizi unutmusunuz?</u></string>
+    <string name="did_you_forget_pincode"><u>Pin kodunuzu unutmusunuz?</u></string>
+    <string name="login">DAXİL OL</string>
+    <string name="registration">Qeydiyyat</string>
+    <string name="login_button_test">Artıq istifadəçi var? <b>Daxil Ol</b></string>
+    <string name="register_button_test">İstifadəçi adı mövcud deyil? <b>Qeydiyyatdan keç</b></string>
+    <string name="register">Qeydiyyatdan keç</string>
+    <string name="pincode_save_information">Xahiş olunur bu <b><u>PİN KODU</u></b> yadda saxlayasınız. Növbəti giriş zamanı sizdən tələb olunacaqdır.</string>
+    <string name="ok">OK</string>
+    <string name="close">Bağla</string>
+    <string name="wrong_login">Uğursuz cəhd</string>
+    <string name="wrong_pincode">Yalnış pin kod</string>
+    <string name="wrong_login_message">Daxil etdiyiniz istifadəçi adı və şifrə bizim sistemdə uyğun gəlmir. Zəhmət olmasa, yenidən yoxlayın.</string>
+    <string name="wrong_pincode_message">Daxil etdiyiniz pin kod düzgün deyil. Zəhmət olmasa, yenidən yoxlayın və ya <b>Pin kodunuzu unutmusunuzmu?</b> düyməsinə basıb öz istifadəçiniz ilə daxil olun.</string>
+    <string name="empty_username_message">Zəhmət olmasa email-inizi daxil edin və yenidən yoxlayın.</string>
+    <string name="empty_pincode_message">Zəhmət olmasa pin kodunuzu daxil edin və yenidən yoxlayın.</string>
+    <string name="empty_password_message">Zəhmət olmasa şifrənizi daxil edin və yenidən yoxlayın.</string>
+    <string name="username">E-mail</string>
+    <string name="password">Şifrə</string>
+    <string name="pincode">Pin kod</string>
+    <string name="resume">Davam et</string>
+    <string name="send">Göndər</string>
+    <string name="minimum_selection">Minimum bilet</string>
+    <string name="minimum_selection_text">Siz davam etmək üçün minimum xxx sıra seçməlisiniz.</string>
+    <string name="games">Oyunlar</string>
+    <string name="terms_and_conditions_text">Siz qeydiyyatdan keçərək <u><b>Müqavilənin şərtləri </b></u> ilə razılaşdığınızı qəbul edirsiniz.</string>
+    <string name="terms_and_conditions">Müqavilə</string>
+    <string name="accept_age">18 yaşından böyük olduğumu qəbul edirəm</string>
+    <string name="wrong">Yanlış</string>
+    <string name="minimim_selection">Minimum Seçim</string>
+    <string name="error_in_ticket">Sizin biletinizdə yanlışlıqlar var. Onları düzəldin və yenidən yoxlayın</string>
+    <string name="error_in_cell">Daxil etdiyin rəqəm həmin xanaya uyğun gəlmir xahiş edirik başqa rəqəm yoxlayın</string>
+    <string name="error_ticket_ball_size">Siz tələb olunan qədər rəqəm seçməmisiniz xahiş edirik yenidən yoxlayasınız.</string>
+    <string name="edit">Edit</string>
+    <string name="remove">Remove</string>
+    <string name="openDrawer">Open Drawer</string>
+    <string name="closeDrawer">Close Drawer</string>
+    <string name="my_profile">Mənim Profilim</string>
+    <string name="rules">Qaydalar</string>
+    <string name="settings">Ayarlar</string>
+    <string name="tickets">Biletlərim</string>
+    <string name="about_us">Haqqımızda</string>
+    <string name="intro">Intro</string>
+    <string name="logout">Çıxış</string>
+    <string name="payment">Ödəniş</string>
+    <string name="increase_balance">Balansı artır</string>
+    <string name="payment_methods">Ödəniş növləri</string>
+    <string name="wrong_email"> Yanlış email</string>
+    <string name="wrong_email_text"> Daxil etdiyiniz email adresi düzgün formata uyğun gəlmir. Zəhmət olmasa email-inizi yoxlayın və yenidən cəhd edin</string>
+    <string name="name">Ad</string>
+    <string name="surname">Soyad</string>
+    <string name="father_name">Ata Adı</string>
+    <string name="birthdate">Doğum tarixi</string>
+    <string name="passport_id">Şəxsiyyət nömrəsi</string>
+    <string name="phone_number">Mobil nömrə</string>
+    <string name="passord_again">Mobil nömrə</string>
+    <string name="email">E-mail</string>
+
+    <string name="name_message">Zəhmət olmasa adınızı daxil edin.</string>
+    <string name="surname_message">Zəhmət olmasa soyadınızı daxil edin.</string>
+    <string name="father_message">Zəhmət olmasa ata adınızı daxil edin.</string>
+    <string name="birthdate_message">Zəhmət olmasa doğum tarixinizi daxil edin.</string>
+    <string name="passport_id_message">Zəhmət olmasa şəxsiyyət nömrənizi daxil edin.</string>
+    <string name="phone_number_message">Zəhmət olmasa mobil nömrənizi daxil edin.</string>
+    <string name="password_again_message">Zəhmət olmasa şifrənizi təsdiqləyin</string>
+    <string name="password_old_message">Zəhmət olmasa hazırkı şifrənizi daxil edin</string>
+    <string name="password_new_message">Zəhmət olmasa yeni şifrənizi daxil edin</string>
+    <string name="password_new_repeat_message">Zəhmət olmasa yeni şifrənizi təsdiqləyin</string>
+    <string name="email_message">Zəhmət olmasa email-iniz daxil edin.</string>
+
+
+    <string name="password_match_text">Daxil etdiyini şifrələr bir-birinə uyğun gəlmir.</string>
+
+    <string name="loading">Zəhmət olmasa gözləyin.</string>
+    <string name="saving_templates">Bilet yadda saxlanılır zəhmət olmasa gözləyin</string>
+    <string name="done">Tamamlandı</string>
+
+
+    <string name="dialog_edit_text_example">Example field</string>
+    <string name="dialog_message_top_example">This is an example message. To show instructions depending on actions</string>
+    <string name="dialog_message_example">This is an example message. Instead of it proper message will be shown on runtime</string>
+    <string name="dialog_button_left">Left Button</string>
+    <string name="dialog_button_right">Right Button</string>
+    <string name="dialog_title_example">Example title</string>
+
+    <string name="oops">Oops...</string>
+    <string name="template_name_text">Şablonun adı boş qala bilməz. Adı daxil edin və yenidən yoxlayın</string>
+    <string name="template_create">Şablon yaratmaq</string>
+    <string name="template_create_minimum_error">Şablon yaratmaq üçün zəhmət olmasa ilk öncə bilet daxil edin</string>
+
+
+    <string name="played_tickets">Oynanılmış</string>
+    <string name="will_play_tickets">Oynanılan</string>
+    <string name="won_tickets">Udulmuş</string>
+    <string name="restore_password">Parolu yenilə</string>
+    <string name="template_tickets">Şablon biletlər</string>
+    <string name="template_ticket">Şablon bilet</string>
+
+    <string name="payment_amount">Ödəniləcək məbləği daxil edin</string>
+
+    <string name="payment_general_instruction">xxx ilə ödəniş etmək üçün lazımlı təlimatlar</string>
+    <string name="payment_azericard_instruction">Bank Of Baku online ödəniş</string>
+    <string name="payment_general_info">- <b>xxx</b> ödəniş məntəqəsinə yaxınlaşın və öz istifadəçi nömrənizi daxil edin.\n- Ödəyəcəyiniz məbləği kioska daxil edin və gözləyin.\n- Daxil etdiyiniz nömrənin sizə aid olduğunu təsdiqləmək üçün <b>TƏSDİQLƏYİRƏM</b> düyməsinə basın.\n- Bundan sonra pul sizin hesabınıza yatırılacaq. Hesabınıza daxil olub balansınızı yoxlaya bilərsiniz.</string>
+
+    <string name="check_ticket">Bilet yoxla</string>
+
+    <string name="balance">Balans</string>
+    <string name="balance_increase_message">Təbriklər sizin balansınız müvəffəqiyyətlə artılırdı əsas menyudan balansınızı yolxaya bilərsiniz</string>
+
+    <string name="ticket">Bilet</string>
+    <string name="ticket_buy_message">Təbriklər siz muvəffəqiyyətlə bileti aldınız.</string>
+
+    <string name="message_send">Email göndərildi</string>
+    <string name="wrong_credentials">Daxil etdiyiniz email və şifrə kombinasiyası uyğun gəlmir zəhmət olmasa yenidən yoxlayın.</string>
+    <string name="internet_connection_error">Serverlə əlaqə saxlanıla bilmədi zəhmət olmasa internetə qoşulduğunuzdan əmin olun və yenidən yoxlayın.</string>
+    <string name="password_reset_message">Əgər daxil etdiyiniz email bizim serverdə qeydiyyatdan keçibsə o zaman siz şifrənizin dəyişdirilməsi üçün email qəbul edəcəksiniz.</string>
+
+    <string name="password_old">Hazırkı şifrəniz</string>
+    <string name="password_new">Yeni şifrəniz</string>
+    <string name="change_password">Şifrəni dəyiş</string>
+    <string name="change_password_message">Şifrəniz müvəffəqiyyətlə dəyişdirildi.</string>
+    <string name="template_delete_message">Şablon müvəffəqiyyətlə silindi.</string>
+    <string name="template_create_message">Şablon müvəffəqiyyətlə əlavə olundu.</string>
+    <string name="user_create_message">Istifadəçi müvəffəqiyyətlə yaradıldı.</string>
+
+    <string name="fill_ticket_number_message">Zəhmət olmasa biletin nömrəsin daxil edin.</string>
+    <string name="fill_draw_number_message">Zəhmət olmasa tirajın nömrəsin daxil edin.</string>
+    <string name="fill_game_name_message">Zəhmət olmasa oyunun adını daxil edin.</string>
+    <string name="ticket_number">Biletin nömrəsi</string>
+    <string name="draw_number">Tirajın nömrəsi</string>
+    <string name="game_name">Oyunun adı</string>
+
+    <string name="no_resuts_message">Nəticələr yuklənməyib daha sonra yoxlayın.</string>
+    <string name="no_tickets_found_message">Bilet tapılmadı yenidən yoxlayın.</string>
+    <string name="wrong_game_name_message">Düzgün oyun adı daxil edin.</string>
+
+
+    <string-array name="list_of_games">
+        <item name="s">5/36</item>
+        <item>6/40</item>
+        <item>Binqo</item>
+        <item>Super Loto</item>
+        <item>Klassik Loto</item>
+    </string-array>
+
+    <string name="winners">Qaliblər</string>
+    <string name="check_now">Indi Yoxla</string>
+    <string name="play_now">Indi Oyna</string>
+    <string name="next_draw_message">növbəti tiraja 2 gün var</string>
+    <string name="last_winner_message">son qalib, 4 gün əvvəl</string>
+    <string name="next_draw_time">saat 21:05</string>
+    <string name="fill_automatic">Avtomatik \nəlavə et</string>
+    <string name="select_numbers">Rəqəmləri \nseçin</string>
+    <string name="select_numbers_title">Rəqəmləri seçin</string>
+    <string name="use_template">Şablondan \nistifadə et</string>
+    <string name="сreate_template">Yeni şablon \nyarat</string>
+    <string name="buy">Almaq</string>
+    <string name="number_of_tickets">Biletlərin sayı : </string>
+    <string name="ticket_info">Bilet məlumatları</string>
+    <string name="check">Yoxla</string>
+    <string name="ticket_selection_message"> - Aşağıdakı cədvəldən xxx ədəd nömrəni işarələyib YADDA SAXLA düyməsinə basın</string>
+    <string name="save">Yadda saxla</string>
+    <string name="pay">Ödəniş et</string>
+    <string name="insert_amount">Məbləği daxil et</string>
+    <string name="ticket_buy_success_message">Bilеtlər müvəfəqiyyətlə alındı.</string>
+    <string name="balance_reminder">Balansda qalıq :</string>
+    <string name="buy_tickets">BİLETLƏRİ AL</string>
+    <string name="order_number">Sifariş nömrəsi</string>
+    <string name="my_info">Mənim məlumatlarım</string>
+    <string name="password_new_again">Şifrənin təsdiqi</string>
+    <string name="templates">Şablonlar</string>
+    <string name="empty_cells">Xanaları \nboşalt</string>
+    <string name="price">qiyməti</string>
+    <string name="ticket_title">Bilet #xxx</string>
+    <string name="cancel">LƏĞV ET</string>
+    <string name="reset">YENİLƏ</string>
+    <string name="no_balance_message">Sizin balansınızda kifayet qədər məbləğ yoxdur xahiş edirik balansı artırın</string>
+    <string name="intro_message_1_title"><![CDATA[Mobil <br/><font color="#ffcf1e"><b>Azerlotereya</b></font>]]></string>
+    <string name="intro_message_2_title"><![CDATA[<font color="#ffcf1e"><b>Oyunları</b></font> oyna]]></string>
+    <string name="intro_message_3_title"><![CDATA[<font color="#ffcf1e"><b>Biletləri</b></font> <br/>redaktə et]]></string>
+    <string name="intro_message_4_title"><![CDATA[Yerində <font color="#ffcf1e"><b>ödəniş</b></font>]]></string>
+    <string name="intro_message_5_title"><![CDATA[Və daha <font color="#ffcf1e"><b>nələr</b></font>]]></string>
+    <string name="intro_message_1">Artıq siz sevimli lotereya oyunlarınızı öz mobil telefonunuzda rahatlıqla oynuya, nəticələri, tirajın vaxtlarını öyrənə bilərsiniz</string>
+    <string name="intro_message_2">Azerlotereya məxsus bütün oyunları, menyudan seç və oynamağa başla</string>
+    <string name="intro_message_3">İstənilən oyunun bilətlərini rahat bir şəkildə, istədiyniz kimi generasiya edə bilərsiniz</string>
+    <string name="intro_message_4">Heç bir əziyyət çəkmədən öz seçdiyiniz biletləri, yerindəcə ödəyə bilərsiniz</string>
+    <string name="intro_message_5">Bundan əlavə öz profilinizi dəyişdirə, oyunların qaydaları haqqında məlumat ala bilərsiniz və biletlərinizi yoxlaya bilərsiniz </string>
+
+    <string name="template_name">Şablonun adı</string>
+    <string name="template_create_msg">Biletı yadda saxlamaq üçün zəhmət olmasa şablonun adın qeyd edəsiniz</string>
+
+    <string name="order_info">Sifariş informasiyası</string>
+    <string name="customer_name">Sifariş edən:</string>
+    <string name="store_name">Mağazanın adı:</string>
+    <string name="total_order">Ümümi sifariş:</string>
+    <string name="total_order_info">xxx x yyy biletləri\nzzz manat</string>
+    <string name="tickets_small">biletləri</string>
+    <string name="password_info">Şifrə məlumatları</string>
+
+
+
+    <string name="game_rule_5_36" formatted="false"><![CDATA[<p>Lototrona&nbsp; 1-dən&nbsp; 36-dək&nbsp; işarələnmiş&nbsp; şarlar&nbsp; (&ccedil;əllək) yerləşdirilir.Şarlar qarışdırılır və&nbsp; təsad&uuml;f prinsipinə əsasən&nbsp; 5 (beş) ədəd şar (&ccedil;əllək) &ccedil;ıxarılır.&Ccedil;ıxarılmış 5 (beş) şarın (&ccedil;əllək) n&ouml;mrələri lotereya biletində əks olunan sətrdəki n&ouml;mrələrin 5(beş) -i,&nbsp; 4(d&ouml;rd) -&uuml;&nbsp;&nbsp; və 3(&uuml;&ccedil;)-&uuml;&nbsp;&nbsp; ilə uyğun gələrsə bilet uduşlu sayılır. Yalnız 5(beş) n&ouml;mrəsi uyğun gələn variant &ldquo;Cek Pot&rdquo; oyununda iştirak edir.</p>
+<p>I &ndash;ci kateqoriya&nbsp;&nbsp;&nbsp;&rarr;&nbsp;&nbsp;<strong><em>5 (beş)</em></strong>&nbsp;rəqəm uyğun gələn biletlər uduş fondunun 15 &ndash; 35 %-ni qazanır &nbsp;</p>
+<p>II &ndash; ci kateqoriya&nbsp;&rarr;&nbsp;<strong><em>4 (d&ouml;rd)&nbsp;</em></strong>rəqəm uyğun gələn biletlər uduş fondunun 15 &ndash; 35 %-ni qazanır</p>
+<p>III &ndash; c&uuml; kateqoriya&nbsp;&rarr;&nbsp;<strong><em>3 (&uuml;&ccedil;)&nbsp;</em></strong>rəqəm uyğun gələn biletlər uduş fondunun 30 &ndash; 70% - ni qazanır&nbsp;</p>
+<p>&ldquo;Cek Pot&rdquo;&nbsp;un oynanılması qaydası</p>
+<p>&ldquo;Cek Pot&rdquo;&nbsp;&nbsp;&nbsp; 5(beş) rəqəm&nbsp; udulduğu halda oynanılır&nbsp; və yalnız 5(beş) rəqəmləri uyğun gələn variantlar &ldquo;Cek Pot&rdquo; un oynanılmasında iştirak edir.&nbsp; 1-dən 36-dək işarələnmiş&nbsp; şarlar (&ccedil;əllək) yenidən lototrona daxil edilir, qarışdırılır və 1 (bir) ədəd şar (&ccedil;əllək) &ccedil;ıxarılır.&nbsp;</p>
+<p>&Ccedil;ıxarılmış şarın (&ccedil;əllək) n&ouml;mrəsi &ldquo;Cek Pot&rdquo; un oynanılmasında iştirak edən&nbsp; variantın n&ouml;mrələrinin 1(bir)-i ilə uyğun gələrsə &ldquo;Cek Pot&rdquo; udulmuş hesab olunur.</p>
+<p><strong>&ldquo;Cek Pot&rdquo;</strong><strong>u udan variant yalnız &ldquo;Cek Pot&rdquo;un məbləğinə sahib olur!!!.</strong>&nbsp;</p>]]></string>
+    <string name="game_rule_6_40" formatted="false"><![CDATA[Lototrona  1-dən  40-dək  işarələnmiş  şarlar  (çəllək) yerləşdirilir. Şarlar qarışdırılır və  təsadüf prinsipinə əsasən  6 (altı) ədəd şar (çəllək) çıxarılır. Çıxarılmış 6 (altı) şarın (çəllək) nömrələri lotereya biletindəki variantın nömrələrinin 6(altı)-sı,  5(beş) -i,  4(dörd) -ü   və 3(üç)-ü   ilə uyğun gələrsə bilet uduşlu sayılır. <br/><br/>6(altı) rəqəmi uyğun gələn variantın bileti “Cek Pot”a sahib olur. <br/><br/><b>I kateqoriya </b> → 6 (altı) rəqəm uyğun gələn biletlər “Cek Pot”a sahib olur<br/><b>II kateqoriya </b> → 5 (beş) rəqəm uyğun gələn biletlər uduş fondunun 5 – 15 %-ni qazanır<br/><b>III kateqoriya </b>  → 4 (dörd) rəqəm uyğun gələn biletlər uduş fondunun 20 – 40 %-ni qazanır<br/><b>VI kateqoriya </b>  → 3 (üç) rəqəm uyğun gələn biletlər uduş fondunun 40 – 60% - ni qazanır  ]]></string>
+    <string name="game_rule_binqo" formatted="false"><![CDATA[<p>&ldquo;Binqo&rdquo; lotereya biletinin &uuml;zərində hər birində 6 xana olan 5 (beş) sətirdən ibarət l&ouml;vhə əks olunub. L&ouml;vhənin hər sətirində 5 (beş) rəqəm g&ouml;stərilməklə hər lotereya biletində cəmi 25 (iyirmi beş) rəqəm &ouml;z əksini tapır. Oyunda 1-dən 60-dək n&ouml;mrələnmiş şar olan x&uuml;susi lototrondan, bir bir, ardıcıllıqla 56&nbsp;(əlli altı) ədəd şar &ccedil;ıxardılır. Oyun 5 (beş) turdan ibarətdir.</p>
+<p><strong>1&nbsp;- &nbsp;Birinci turda</strong> istənilən &uuml;f&uuml;qi sıralarından hər hansı biri, ən tez, dolmuş bilet(lər) uduşlu&nbsp;sayılır. Uduşa d&uuml;şm&uuml;ş bilet(lər) oyunu davam edir. Hər hansı bir &uuml;f&uuml;qi sırası əvvəlcədən elan edilmiş (daxil olmaqla) gedişə qədər, ən tez, tam dolan bilet <strong><em>&ldquo;Cek Pot&rdquo;</em></strong> pul m&uuml;kafatını udur. &rdquo;Cek Pot&rdquo;u qazanan bilet oyunu davam edir.<br /><strong>&nbsp;</strong></p>
+<p><strong>2 - İkinci turda&nbsp;</strong>lotereya biletinin hər hansı iki &uuml;f&uuml;qi sırası, ən tez, dolmuş bilet(lər) uduşlu sayılır. Uduşa d&uuml;şm&uuml;ş bilet(lər) oyunu davam edir. Bu turda, hər hansı iki &uuml;f&uuml;qi sırası əvvəlcədən elan edilmiş (daxil olmaqla) gedişə qədər, ən tez, tam dolan bilet <strong><em>&ldquo;Meqa Pot&rdquo; </em></strong>pul m&uuml;kafatını udur.&rdquo;Meqa Pot&rdquo; pul m&uuml;kafatını qazanan bilet oyunu davam edir.</p>
+<p>&nbsp;</p>
+<p><strong>3 - &Uuml;&ccedil;&uuml;nc&uuml; turda</strong> <strong>lotereya biletinin hər hansı &uuml;&ccedil; &uuml;f&uuml;qi sırası, ən tez, dolmuş bilet(lər) uduşlu sayılır və "Chevrolet AVEO" avtomobilini qazanır.</strong>Əgər bir ne&ccedil;ə bilet uduşlu olarsa avtomobilin məbləği uduşa d&uuml;şm&uuml;ş lotereya biletləri arasında bərabər olaraq b&ouml;l&uuml;şd&uuml;r&uuml;l&uuml;r.&nbsp;Uduşa d&uuml;şm&uuml;ş bilet(lər) oyunu davam edir. Bu turda, hər hansı &uuml;&ccedil; &uuml;f&uuml;qi sırası əvvəlcədən elan edilmiş (daxil olmaqla)&nbsp; gedişə qədər, ən tez, tam dolan bilet <strong><em>&ldquo;Binqo&rdquo;</em></strong> pul m&uuml;kafatını udur.&rdquo;Binqo&rdquo; pul m&uuml;kafatını qazanan bilet oyunu davam edir.<br /><br /></p>
+<p><strong>4 - D&ouml;rd&uuml;nc&uuml; turda</strong> lotereya biletinin hər hansı d&ouml;rd &uuml;f&uuml;qi sırası, ən tez, dolmuş bilet(lər) uduşlu sayılır. Uduşa d&uuml;şm&uuml;ş bilet(lər) oyunu davam edir. Bu turda, hər hansı d&ouml;rd &uuml;f&uuml;qi sırası əvvəlcədən elan edilmiş (daxil olmaqla)&nbsp; gedişə qədər, ən tez, tam dolan bilet <strong><em>&ldquo;Super Binqo&rdquo;</em></strong> pul m&uuml;kafatını udur.&rdquo;Super Binqo&rdquo; pul m&uuml;kafatını udan bilet oyunu sona qədər davam edir.<br /><br /></p>
+<p><strong>5 - Beşinci turda</strong> beş &uuml;f&uuml;qi sırası tam dolmuş biletlər uduşlu sayılır. Bu turda b&uuml;t&uuml;n xanaları, əvvəlcədən elan edilmiş (daxil olmaqla) gedişə qədər, ən tez tam dolan bilet <strong><em>&ldquo;Fortuna&rdquo; </em></strong>pul m&uuml;kafatını udur. Beşinci tur ən azı 54 (əlli d&ouml;rd) gediş daxil olmaqla uduş fondu bitənədək davam edir.<br /><br /></p>
+<p>Əsas oyun başlanmazdan əvvəl 0-dan 9-dək n&ouml;mrələnmiş şarların (&ccedil;əlləklərin) lototrondan (torbadan) &ccedil;ıxarılması ilə ardıcıl 4 (d&ouml;rd) rəqəm m&uuml;əyyən edilir:</p>
+<p><br />&nbsp;- Bu ardıcıl rəqəmlər lotereya biletinin n&ouml;mrəsinin son&nbsp;4 (d&ouml;rd) &nbsp;rəqəmi ilə uyğun gələrsə, bilet 200 (iki y&uuml;z) manat udur.</p>
+<p>&nbsp;-&nbsp;Bu ardıcıl rəqəmlərdən&nbsp;&nbsp;son 3&nbsp;(&uuml;&ccedil;&uuml;) lotereya biletinin n&ouml;mrəsinin son 3 (&uuml;&ccedil;)&nbsp;&nbsp;rəqəmi ilə uyğun gələrsə, bilet&nbsp;20&nbsp;(iyirmi) manat udur.</p>
+<p>&nbsp;-&nbsp;Bu ardıcıl rəqəmlərdən&nbsp;&nbsp;son 2&nbsp;(ikisi) lotereya biletinin n&ouml;mrəsinin son 2&nbsp;(iki)&nbsp;&nbsp;rəqəmi ilə uyğun gələrsə, bilet&nbsp;2&nbsp;(iki) manat udur.</p>]]></string>
+    <string name="game_rule_klassik" formatted="false"><![CDATA[<p>Oyunda 1-dən 90-dək n&ouml;mrələnmiş şarlar (və ya &ccedil;əlləklər) istifadə olunur. Şarlar (&ccedil;əlləklər) x&uuml;susi lototrona (və ya torbaya) yerləşdirilir, qarışdırılır və bundan sonra&nbsp; bir-bir ardıcıllıqla &ccedil;ıxarılır. Əsas oyun zamanı lototrondan (torbadan)&nbsp; 77 (yetmiş yeddi)&nbsp; ədəd şar (&ccedil;əllək) &ccedil;ıxarılır. Lototrondan (torbadan) &ccedil;ıxmış şarlar (&ccedil;əlləklər) lototrona (torbaya) yenidən qaytarılmır.</p>
+<p>Lotereya biletinin &uuml;zərində iki oyun l&ouml;vhəsi əks olunub. Hər əsas l&ouml;vhədə cəmi&nbsp; 27 (iyirmi yeddi) xana var (3 &uuml;f&uuml;qi sıra və 9 şaquli s&uuml;tun). Hər sırada 5 (beş) rəqəm g&ouml;stərilməklə l&ouml;vhədə cəmi 15 rəqəm, hər lotereya biletində isə cəmi 30 (otuz) rəqəm &ouml;z əksini tapır.</p>
+<p>&nbsp;</p>
+<p><strong>Oyun &uuml;&ccedil; turdan ibarətdir:</strong></p>
+<p><strong>1. </strong><strong>Birinci turda</strong> lotereya biletinin istənilən &uuml;f&uuml;qi sıralarından hər hansı biri, ən tez, dolmuş bilet uduşlu sayılır. Birinci turda lotereya biletinin istənilən &uuml;f&uuml;qi sıralarından hər hansı biri, ən tez, əvvəlcədən elan edilmiş gedişə (daxil olmaqla) qədər tam dolarsa həmin bilet &ldquo;Cek Pot&rdquo; u udur. Birinci turda uduşa d&uuml;şm&uuml;ş biletlər oyunu davam edir.</p>
+<p>&nbsp;</p>
+<p><strong>2</strong><strong>.</strong><strong>&nbsp;İkinci turda lotereya biletinin l&ouml;vhələrindən hər hansı biri, ən tez, dolmuş bilet&nbsp;10 000 manat pul uduşu&nbsp;qazanır.</strong> Əgər bir ne&ccedil;ə bilet uduşlu olarsa&nbsp;məbləğ uduşa d&uuml;şm&uuml;ş lotereya biletlərinin arasında bərabər olaraq b&ouml;l&uuml;şd&uuml;r&uuml;l&uuml;r.&nbsp;&nbsp;2-ci turda lotereya biletinin iki l&ouml;vhəsindən hər hansı biri, ən tez, əvvəlcədən elan edilmiş gedişə (daxil olmaqla) qədər tam dolarsa həmin bilet &ldquo;MEGA POT&rdquo;u udur. Belə olan halda ikinci tur başa &ccedil;atmış hesab edilir. İkinci turda uduşa d&uuml;şm&uuml;ş bilet oyunu davam edir.</p>
+<p>&nbsp;</p>
+<p><strong>3.</strong>&nbsp;<strong>&Uuml;&ccedil;&uuml;nc&uuml; tur</strong> ən azı 75-ci gedişə (daxil olmaqla) qədər davam edir və hər hansı bir l&ouml;vhəsi dolmuş bilet uduşlu sayılır (əgər bir biletin hər iki l&ouml;vhəsi dolmuşsa uduşlar cəmlənir). Bu turda ilk uduş əvvəlcədən qeyd olunmuş m&uuml;əyyən məbləğdir, bir ne&ccedil;ə bilet qalib gəldikdə bu məbləğ onlar arsında bərabər b&ouml;l&uuml;n&uuml;r. Əsas oyunun birinci və ikinci turlarının qalibliyinə ilk namizədlər (g&ouml;zləyənlər) m&uuml;kafatlandırılırlar.</p>
+<p>&nbsp;</p>
+<p>Əgər bir biletin hər iki l&ouml;vhəsi dolmuşsa uduşlar cəmlənir.&nbsp;</p>
+<p>&nbsp;</p>
+<p>&ldquo;Klassik Loto&rdquo; tirajlı lotereyasında əsas oyunun sonunda lototronda (torbada) qalan şarların (&ccedil;əlləyin) n&ouml;mrələri&nbsp; lotereya biletinin&nbsp; l&ouml;vhələrindən birində əks olunmuş rəqəmlərin ən azı 6-sı ilə &uuml;st-&uuml;stə d&uuml;şərsə, həmin lotereya bileti ən azı 1 manat udur.</p>
+<p>Əsas oyuna əlavə olaraq həvəsləndirici uduşlar oynanılır. Həvəsləndirici turda uduşa d&uuml;şən lotereya bileti &uuml;zrə yalnız ən iri uduş məbləği &ouml;dənilir (diğər uduşlar bu uduşa əlavə olunmur)</p>
+<p>Belə ki, əsas oyun başlanmazdan əvvəl 0-dan 9-dək n&ouml;mrələnmiş şarların (&ccedil;əlləklərin) lototrondan (torbadan) &ccedil;ıxarılması ilə ardıcıl 4&nbsp;(d&ouml;rd) rəqəm m&uuml;əyyən edilir:</p>
+<p>&nbsp;&mdash; Bu rəqəmlərdən son 4 (d&ouml;rd&uuml;) lotereya biletinin n&ouml;mrəsinin son (4) d&ouml;rd rəqəmi ilə uyğun gələrsə, bilet 200 (iki y&uuml;z) manat udur.</p>
+<p>&nbsp;&mdash; Bu rəqəmlərdən son 3 (&uuml;&ccedil;&uuml;) lotereya biletinin n&ouml;mrəsinin son (3) &uuml;&ccedil; rəqəmi ilə uyğun gələrsə, bilet 20 (iyirmi) manat udur.</p>
+<p>&nbsp;&mdash; Bu rəqəmlərdən son 2 (ikisi) lotereya biletinin n&ouml;mrəsinin son (2) iki rəqəmi ilə uyğun gələrsə, bilet 2 (iki ) manat udur.</p>
+<p><strong>**0000</strong>&nbsp; &rarr; &nbsp;200 manat</p>
+<p><strong>***000</strong>&nbsp; &rarr; &nbsp;20 manat</p>
+<p><strong>****00</strong>&nbsp; &rarr; &nbsp;2 manat </p>
+<p>Əsas oyunun sonuda&nbsp;2&nbsp;(iki) dəfə 0-dan 9-dək n&ouml;mrələnmiş şarların lototrondan &ccedil;ıxarılması ilə ardıcıl iki dəfə&nbsp;2 (iki) rəqəm m&uuml;əyyən edilir&nbsp;və bu ardıcıl rəqəmlər lotereya biletinin n&ouml;mrəsinin son 2 (iki) rəqəmi ilə uyğun gələn biletlər 2&nbsp;(iki) manat məbləğində&nbsp;uduş&nbsp;əldə edəcəkdir.&nbsp;</p>
+<div><strong>****00</strong>&nbsp; &rarr; &nbsp;2 manat</div>]]></string>
+    <string name="game_rule_super" formatted="false"><![CDATA[<div>Lotereya biletinin qiyməti: 1 (bir) manat. <br /><br /></div>
+<div><strong>Uduş fondunun oynanılması qaydası: &nbsp;</strong></div>
+<div>Oyunda 1-dən 90-dək n&ouml;mrələnmiş şarlar (və ya &ccedil;əlləklər) istifadə olunur. &nbsp;Şarlar (&ccedil;əlləklər) x&uuml;susi lototrona (və ya torbaya) yerləşdirilir, qarışdırılır və bundan sonra &nbsp;bir-bir ardıcıllıqla &ccedil;ıxarılır. Əsas oyun zamanı lototrondan (torbadan)&nbsp;ən azı 72 (yetmiş iki) ədəd şar (&ccedil;əllək) &ccedil;ıxarılır. Oyunun mahiyyəti, lototrondan (torbadan)&nbsp;&ccedil;ıxmış şarların (&ccedil;əlləklərin) n&ouml;mrələrinin lotereya biletinin l&ouml;vhələrində əks olunmuş rəqəmlər ilə &uuml;st-&uuml;stə d&uuml;şməsindən ibarətdir.</div>
+<div><br />Lotereya biletinin &uuml;zərində &uuml;&ccedil; oyun l&ouml;vhəsi əks olunub.</div>
+<div><br /><strong>Oyun &uuml;&ccedil; turdan ibarətdir:</strong></div>
+<div>
+<p><strong><em>Birinci turda lotereya biletinin istənilən &uuml;f&uuml;qi sıralarından hər hansı biri, ən tez, dolmuş bilet uduşlu sayılır.</em></strong></p>
+Birinci turda lotereya biletinin istənilən &uuml;f&uuml;qi sıralarından hər hansı biri, ən tez, əvvəlcədən elan edilmiş gedişə (daxil olmaqla) qədər tam dolarsa həmin bilet &ldquo;Cek Pot&rdquo;u udur.&nbsp;Birinci turda uduşa d&uuml;şm&uuml;ş biletlər oyunu davam edir.</div>
+<div>&nbsp;<br /><br /></div>
+<div><strong><em>İkinci turda lotereya biletinin l&ouml;vhələrindən hər hansı biri, ən tez, dolmuş bilet &nbsp;&ldquo;Kia Rio&rdquo; &nbsp;avtomobilinə sahib olur.</em></strong></div>
+<div><strong><em>&nbsp;</em></strong></div>
+<div>&ldquo;Kia Rio&rdquo; avtomobili bir və ya bir ne&ccedil;ə bilet tərəfindən udulduğu halda&nbsp;avtomobilinin dəyəri uduşa d&uuml;şm&uuml;ş lotereya biletləri arasında &nbsp;bərabər olaraq b&ouml;l&uuml;şd&uuml;r&uuml;l&uuml;r.</div>
+<div>&nbsp;</div>
+<div>2-ci turda lotereya biletinin l&ouml;vhələrindən hər hansı biri, ən tez, əvvəlcədən elan edilmiş&nbsp;gedişə (daxil olmaqla) qədər tam dolarsa həmin bilet &ldquo;Meqa Pot&rdquo;u udur.&nbsp;Belə olan halda ikinci tur başa &ccedil;atmış hesab edilir. İkinci tur zamanı &ldquo;Meqa Pot&rdquo; udulduğu halda, ikinci tura ayrılan məbləğ&nbsp; (&ldquo;Kia Rio&rdquo; avtomobilinin dəyəri) bu uduşa əlavə edilmir. İkinci turda uduşa d&uuml;şm&uuml;ş bilet oyunu davam edir.&nbsp;</div>
+<div>&nbsp;</div>
+<div><strong><em>&Uuml;&ccedil;&uuml;nc&uuml; tur ən azı 72-ci gedişə (daxil olmaqla) qədər davam edir və hər hansı bir&nbsp;l&ouml;vhəsi dolmuş bilet uduşlu sayılır</em></strong> (əgər bir biletin hər iki və ya &nbsp;&uuml;&ccedil; l&ouml;vhəsi&nbsp;dolmuşsa uduşlar cəmlənir).</div>
+<div>Əsas oyunun birinci və ikinci turlarının qalibliyinə ilk namizədlər (g&ouml;zləyənlər) m&uuml;kafatlandırılırlar. &ldquo;Super Loto&rdquo; tirajlı lotereyasında əsas oyunun sonunda lototronda (torbada) qalan &nbsp;şarların (&ccedil;əlləyin) n&ouml;mrələri lotereya biletinin &nbsp;l&ouml;vhələrindən birində əks olunmuş &nbsp;rəqəmlərin ən azı 6-sı ilə &uuml;st-&uuml;stə d&uuml;şərsə, həmin lotereya bileti ən azı 1 (bir) manat udur.</div>]]></string>
+
+    <string name="draw">Tiraj #</string>
+    <string name="date">tarix</string>
+    <string name="accept">Qəbul edirəm</string>
+    <string name="agreement">Müqavilə</string>
+    <string name="terms_and_conditions_doc" formatted="false"><![CDATA[<p style="text-align: left;"><strong>Maddə 1 - Tərəflər</strong><br /> Bu Müqavilə Bakı şəhəri, Bül-Bül pr. 19-da yerləşən “Azerlotereya” ASC-ilə (bundan sonra “Təşkilatçı”) və Adı /Soyadı <a href="http://www.azerlotereya.com/">www.azerlotereya.com</a> saytının “Qeydiyyat” hissəsində göstərilən şəxsin (bundan sonra “İştirakçı”nın) arasında aşağıdakı şərtlər əsasında tərtib olunmuşdur.<br /> <strong>Maddə 2 -Terminlər</strong><br /> Aşağıdakı terminlər bu Müqavilədə istifadə edilmişdir:<br /> “Təşkilatçı” (Virtual satıcı) - müqaviləyə əsasən fəaliyyət göstərən və virtual şəraitdə (internet, mobil telefon şəbəkəsi və s. vasitələlrə) lotereya oyunlarının iştirakçıları ilə bütün əlaqələri təmin edən hüquqi şəxs. <br /> “İştirakçı” - “Azerlotereya” ASC-nin <a href="http://www.azerlotereya.com/">www.azerlotereya.com</a> saytı vasitəsi ilə onlayn lotereya oyunlarında iştirak etmək üçün bu Müqaviləni qəbul etmiş fiziki şəxs.<br /> “Onlayn lotereya oyunları”- “Azerlotereya”ASC tərəfindən <a href="http://www.azerlotereya.com/">www.azerlotereya.com</a> saytında təşkil olunan onlayn lotereya oyunları.<br />  <a href="http://www.azerlotereya.com/">www.azerlotereya.com</a> saytı vasitəsi ilə onlayn lotereya oyunlarında Bilet Satışının Təsdiqi - İştirakçıların <a href="http://www.azerlotereya.com/">www.azerlotereya.com</a> virtual mühitində seçib işarələmək şərti ilə satın alındıqları bilet qarşılığında və ya oynadıqları oyun qarşılığında tələb etdikləri təqdirdə göndərilən oyun/satın alınan bilet məlumatlarını və lazım olan digər əlaqəli məsələləri əhatə edən məlumat və ya bu məlumatı əhatə edən e-poçt və ya sms və ya oxşar yollarla göndərilən virtual sənəd. <br /> Hesabın menyusu - <a href="http://www.azerlotereya.com/">www.azerlotereya.com</a> internet səhifəsindən daxil olunan, İştirakçıların virtual mühitdə Şəxsi Kabinet Hesabında reallaşdırdıqları pul köçürmələrinin hesab hərəkətlərinə baxa bildiyi, bank köçürmə ehtiyaclarını reallaşdıra bildikləri və bir sıra icazə verilən əməliyyatları icra edə bildikləri fərdi sahə.</p>
+<p style="text-align: left;"><strong>Maddə 3 -  Onlayn lotereyalarda iştirak etmənin şərtləri</strong><br /> 3.1. 18 yaşı tamam olmuş hər bir şəxs bu Müqavilə şərtlərini qəbul etmək şərti ilə “Azerlotereya” ASC-nin onlayn lotereya oyunlarının iştirakçısı ola bilər. <br /> 3.2. Onlayn lotereya oyunlarında iştirak etmək istəyən şəxs lotereya oyunlarının qaydaları ilə tanış olmalı və bu qaydaları qəbul etməlidir;<br /> 3.3. Onlayn lotereya oyunlarında iştirak etmək istəyən şəxs Qeydiyyat formasını doldurduqdan sonra ən qısa müddətdə elektron poçt vasitəsi ilə məlumat alacaq. Məlumat alındıqdan sonra, həmin şəxs İştirakçı qismində Onlayn lotereyalarda iştirak edə bilər.</p>
+<p style="text-align: left;"><strong>Maddə 4 - Məsuliyyət:</strong><br /> 4.1 İştirakçının Parolunun hər hansı bir üçüncü şəxs tərəfindən istifadə edilməsi nəticəsində baş verənlərə görə özünün cavabdeh olduğunu, bu əməliyyatlar özü tərəfindən icra edilmədiyi halda “Azerlotereya” ASC-yə qarşı etiraz və iddia hüquqlarından əvvəlcədən imtina etdiyini, bu kimi qaydalara zidd istifadə edən şəxslərin kim olduqlarını araşdırmağa görə “Azerlotereya” ASC-nin öhdəlik daşımadığını qəbul və təsdiq edir. Parolunun hər hansı bir üçüncü şəxs tərəfindən istifadə edildiyini bilən İştirakçı, bu məlumatı dərhal “Azerlotereya” ASC-yə bildirməlidir. <br /> 4.2 İştirakçının Hesabının bağlanılması halında İştirakçı Təşkilatçıdan heç bir kompensasiya tələb etməyəcəyini əvvəlcədən qəbul, bəyan və təsdiq edir. <br /> 4.3 İştirakçı Şəxsi Kabinetindəki Hesabına köçürdükləri məbləğlərə görə şərtsiz cavabdehlik daşıyır. İştirakçı tərəfindən edilən səhv əməliyyatlara görə Təşkilatçı heç bir məsuliyyət daşımır. <br /> 4.4 Onlayn Lotereya Oyunlarda, İştirakçı tərəfindən Oyunla əlaqəli daxil edilən məlumatlar Təşkilatçı tərəfindən düzgün hesab edilərək istifadə olunacaqdır. <br /> 4.5 İştirakçı tərəfindən satın alınan lotereya bileti heç bir şəkildə ləğv edilə və dəyişdirilə bilməz. <br /> 4.6 İştirakçı tərəfindən uduş qazanıldığında bu uduş məbləği əlavə bir əməliyyatın həyata keçirilməsinə ehtiyac olmadan ən gec 24 (iyirmi dörd) saat ərzində Təşkilatçı tərəfindən abunəçinin virtual hesabına əlavə edilir. İştirakçının hesabında olan və İştirakçı tərəfindən tələb edilən məbləğ, Təşkilatçı tərəfindən İştirakçının bank hesabına ən gec 2 (iki) bank günü ərzində köçürülür. <br /> 4.7 Onlayn Lotereya oyunlarının keçirilməsi zamanı baş verə biləcək hər cür rabitə kəsilməsi, fasilələr, sistem qəzaları, texniki səbəblərlə meydana gələn məlumatlandırma mesajlarının və s. getməməsi, gecikməsi halları daxil olmaqla, lakin bunlarla məhdudlaşmayaraq, səhv gecikməli məlumat ötürülməsi yaxud rabitə fasilələrinə görə yaranan zərərlərə görə Təşkilatçı heç bir məsuliyyət daşımır. <br /> 4.8 İştirakçı bu Müqavilənin əhatə etdiyi xidmətlərlə əlaqədar Təşkilatçıya yazılı, Şifahı, İnternet və/ya digər elektron cihazlar vasitəsi ilə çatdırdığı məlumatların düzgün, tam və aktual olduğunu bəyan edir, bu bəyanın səhv olması və/və ya məlumatların səhv verilmiş olması səbəbi ilə yarana biləcək bütün zərərlərə görə İştirakçı məsuliyyət daşıyır. <br /> 4.9 İştirakçının bildirdiyi məlumatlar istiqamətində, məlumatların səhv olması yaxud texniki səbəblər ilə məlumatlandırma mesajlarının və.s-in getməməsinə və gecikməsinə görə yaranan dolayı və/və ya birbaşa zərərlərə görə Təşkilatçı məsuliyyət daşımır. <br /> 4.10 İştirakçı, Təşkilatçı tərəfindən təqdim edilən xidmətlərin istifadəsi zamanı üçüncü şəxslərə və “Azerlotereya” ASC-yə zərər vurması halında, həmin zərərə görə şəxsən cavabdeh olduğunu qəbul, bəyan və təsdiq edir. <br /> 4.11 “Azerlotereya” ASC-nin məlumat bazasına və ya İnternet saytına ediləcək hər hansı bir hücüm nəticəsində, İştirakçı məlumatların pis niyyətli istifadəçilərin əlinə keçməsi və bu məlumatların istifadə edilməsi halında yaranan nəticələrə görə məsuliyyət daşımır.</p>
+<p style="text-align: left;"><strong>Maddə 5 - Mübahisəli məsələlərin həlli </strong><br /> 5.1 Mübahisəli məsələlərin və qeyri-müəyyənliklərin həlli Azərbaycan Respublikasının mövcud qanunvericiliyinə əsasən həll edilməlidir. <br /> 5.2 İştirakçı olmaq istəyən şəxslər bu Müqavilənin bəndlərinin hamısını oxuduğunu, məzmundakı bütün maddələri şərtsiz qəbul etdiyini və razılaşdığını əvvəlcədən təsdiq edir.</p>
+<p>Əlaqə Məlumatları “Azerlotereya” ASC Baki şəhəri, Bül-Bül prospekti 19;<br /> Tel.: 441 45 15 <br /> Fax: 012 493 97 93         <br /> E-Poçt ünvanı: azerlotereya@azeronline.com<br /> İnternet ünvanı: <a href="http://www.azerlotereya.com/">www.azerlotereya.com</a></p>]]></string>
+
+
+    <string name="general_rules">Ümümi qaydalar</string>
+    <string name="game_rules">Oyunun Qaydaları</string>
+    <string name="general_rules_text" formatted="false"><![CDATA[Uduş məbləği <b>2000 AZN</b>–dən yuxarı olduğu zaman uduşu əldə etmək üçün <font color="red"><b>Azerlotoreya</b></font> şirkətinə müraciət etməlisiniz  : ]]></string>
+<string name="user_id">İSTİFADƏÇİ #2512</string>
+
+    <string name="account">Hesab</string>
+    <string name="distrib_text">Azerlotereya şirkətinin rəsmi distribyutoru</string>
+    <string name="withdraw_balance">Pul Götür</string>
+    <string name="card_number">Kartın nömrəsi</string>
+    <string name="call_to_loto">Azerlotereyaya müraciət edin</string>
+    <string name="insert_card">Kartıvızın nömrəsin daxil edin.</string>
+    <string name="lotocard_instructions">Qeyd edilən xanada kartln üzərində olan boyanı silib 16 rəqəmli şifrəni daxil edin.</string>
+    <string name="insert_number">Şifrəni daxil et</string>
+    <string name="error_lotocard">Daxil etdiyiniz şifrə yalnışdır.</string>
+    <string name="success_lotocard">Balansınıza xxx AZN daxil edildi. Transaksiya nömrəsi: yyy.</string>
+
+    <string name="address_id_message">Zəhmət olmasa qeydiyyatda olduğunuz ünvanı daxil edin.</string>
+    <string name="address">Qeydiyyatda olduğu ünvan</string>
+
+
+    <string name="transaction_errors">xətalar</string>
+    <string name="transaction_success">əməliyyatlar</string>
+
+    <string-array name="transaction_type_array">
+        <item>Balans artırma</item>
+        <item>Uduş əlavə etmə</item>
+        <item>Bilet alma</item>
+        <item>Uduş ödənilmə</item>
+    </string-array>
+
+    <string-array name="transaction_method_array">
+        <item>Bank Kartı</item>
+        <item>Ödəniş Kartı</item>
+        <item>Poçta ilə</item>
+        <item>Bank Kartı ilə</item>
+    </string-array>
+    <string name="transactions">Əməliyyatlar</string>
+    <string name="info">Məlumat</string>
+    <string name="withdraw_information">Yalnız uduşdan istifadə olunmamış məbləğ qaytarılır. 20 manata qədər olan uduşları yalnız poçt vasitəsi ilə almaq olar.
+        Poçta köçür əməliyyatın yerinə yetirdikdən sonra istənilən Poçta öz şəxsiyyət vəsiqənizlə yaxınlaşıb pulu götürə bilərsiniz. Bundan əlavə
+        20 manatdan artıq uduşları həm poçtla ala bilərsiz həm də karta köçülə bilər.</string>
+
+    <string name="dont_show">Bu mesajı bir daha göstərmə.</string>
+    <string name="transaction_error_card">Sizin kartınıza pul köçürmə zamanı xəta əmələ gəlmişdir. Daxil etdiyiniz kartın nömrəsin və ya kartın aktive olub olmadığını yoxlayın.</string>
+    <string name="transaction_error_azerpost">Azerpoçt ilə pul götürmə əməliyyatı zamani xəta əmələ gəlmişdir. Profilinizdə ünvanı yoxlayın. Ünvan qeydiyyatda olduğunuz ünvan ilə eyni olmalıdır.</string>
+    <string name="withdraw_money">Götürülə biləcək məbləğ:</string>
+    <string name="address_fill_message">Şəxsiyyət vəsiqəsində qeyd olunan ünvan qeyd olunmalıdır.</string>
+     <string name="payment_success">Ödəniş uğurla başa çatdı.</string>
+     <string name="payment_fail">Ödənişdə xəta baş verdi. Yenidən cəhd edin.</string>
+     <string name="soon_text">Tezliklə...</string>
+     <string name="next_draw_info">Növbəti tiraja %1$s qalıb.</string>
+     <string name="game_rule_four_plus_four" formatted="false"><![CDATA[<div class="grid_9">
+<div class="inner">
+<div class="top_n">
+<div class="cs_description">
+<div>
+<p>Uduş fondunun oynanılması iki lototron vasitəsi ilə həyata ke&ccedil;irilir. Hər iki lototrona 1-dən 20-dək n&ouml;mrələnmiş şarlar yerləşdirilir, qarışdırılır və birinci lototrondan &ccedil;ıxarılmış n&ouml;mrələr &ldquo;A&rdquo; l&ouml;vhəsi &uuml;&ccedil;&uuml;n, ikinci lototrondan &ccedil;ıxarılmış n&ouml;mrələr &ldquo;B&rdquo; l&ouml;vhəsi &uuml;&ccedil;&uuml;n olmaqla hər lototrondan 4 (d&ouml;rd) n&ouml;mrə təyin olunur. Oyunun mahiyyəti, hər lototrondan &ccedil;ıxmış şarların n&ouml;mrələrinin lotereya biletinin uyğun l&ouml;vhələrində əks olunmuş rəqəmlər ilə &uuml;st-&uuml;stə d&uuml;şməsindən ibarətdir. Belə ki, oyunun nəticələri bir biletin iki l&ouml;vhəsində aşağıdakı uyğunluqla m&uuml;əyyən edilir:</p>
+<p>&ldquo;4+4&rdquo; &ndash; <strong>CEK</strong> <strong>POT</strong>, &ldquo;4+3&rdquo;, &ldquo;4+2&rdquo;, &ldquo;4+1&rdquo;, &ldquo;4+0&rdquo;, &ldquo;3+4&rdquo;, &ldquo;3+3&rdquo;, &ldquo;3+2&rdquo;, &ldquo;3+1&rdquo;, &ldquo;3+0&rdquo;, &ldquo;2+4&rdquo;, &ldquo;2+3&rdquo;, &ldquo;2+2&rdquo;, &ldquo;2+1&rdquo;, &ldquo;1+4&rdquo;, &ldquo;1+3&rdquo;, &ldquo;1+2&rdquo;, &ldquo;0+4&rdquo;, &ldquo;0+3&rdquo;&nbsp; &ndash; uyğun olan biletlər uduşludur. Lotereya biletinin uduşu bu kombinasiyalara uyğun&nbsp; kateqoriya &uuml;zrə m&uuml;əyyən olunur.</p>
+<p>Biletin uduşu oyunda təyin olunmuş n&ouml;mrələrin biletin &uuml;zərindəki l&ouml;vhələrdə qeyd</p>
+<p>olunmuş rəqəmlərlə uyğunluğu əsasında aşağıdakı 11 (on bir) kateqoriya &uuml;zrə b&ouml;l&uuml;n&uuml;r:</p>
+<p>I kateqoriya - hər iki l&ouml;vhədə 4 n&ouml;mrənin uyğunluğu olan bilet(lər) &ldquo;Cek Pot&rdquo;u qazanır</p>
+<p>II kateqoriya - bir l&ouml;vhədə 4 n&ouml;mrə və digər l&ouml;vhədə 3 n&ouml;mrə uyğunluğu olan bilet(lər) uduş fondunun 1-10%-ni qazanır</p>
+<p>III kateqoriya - bir l&ouml;vhədə 4 n&ouml;mrə və digər l&ouml;vhədə 2 n&ouml;mrə uyğunluğu olan bilet(lər) uduş fondunun 1-10%-ni qazanır</p>
+<p>IV kateqoriya - bir l&ouml;vhədə 4 n&ouml;mrə və digər l&ouml;vhədə 1 n&ouml;mrə uyğunluğu olan bilet(lər) uduş fondunun 1-10%-ni qazanır</p>
+<p>V kateqoriya - bir l&ouml;vhədə 4 n&ouml;mrə və digər l&ouml;vhədə 0 n&ouml;mrə uyğunluğu olan bilet(lər) &nbsp;uduş fondunun 1-10%-ni qazanır</p>
+<p>VI kateqoriya - hər iki l&ouml;vhədə 3 n&ouml;mrə uyğunluğu olan bilet(lər) uduş fondunun 1-10%-ni qazanır</p>
+<p>VII kateqoriya - bir l&ouml;vhədə 3 n&ouml;mrə və digər l&ouml;vhədə 2 n&ouml;mrə uyğunluğu olan bilet(lər) uduş fondunun 5-25%-ni qazanır</p>
+<p>VIII kateqoriya - bir l&ouml;vhədə 3 n&ouml;mrə və digər l&ouml;vhədə 1 n&ouml;mrə uyğunluğu olan bilet(lər) uduş fondunun 5-25%-ni qazanır</p>
+<p>IX kateqoriya - bir l&ouml;vhədə 3 n&ouml;mrə və digər l&ouml;vhədə 0 n&ouml;mrə uyğunluğu olan bilet(lər) uduş fondunun 5-25%-ni qazanır</p>
+<p>X kateqoriya - hər iki l&ouml;vhədə 2 n&ouml;mrə uyğunluğu olan bilet(lər) uduş fondunun 5-25%-ni qazanır</p>
+<p>XI kateqoriya - bir l&ouml;vhədə 2 n&ouml;mrə və digər l&ouml;vhədə 1 n&ouml;mrə uyğunluğu olan bilet(lər) uduş fondunun 15-45%-ni qazanır</p>
+<p>Texniki səbəblərdən lototrondan istifadə etmək m&uuml;mk&uuml;n olmadıqda, uduşlu n&ouml;mrələrin təyin edilməsi torba və &ccedil;əlləklər vasitəsi ilə həyata ke&ccedil;iriləcəkdir.</p>
+<p>11.&nbsp;Hər tirajın uduş fondu kateqoriyalar &uuml;zrə aşağıdakı qaydada b&ouml;l&uuml;şd&uuml;r&uuml;l&uuml;r:</p>
+<p>11.1. &nbsp;I kateqoriya &uuml;zrə qaliblər &ldquo;Cek Pot&rdquo;u udur, cari tirajın uduş fondunun 1-10%-i n&ouml;vbəti tirajın &ldquo;Cek Pot&rdquo;una əlavə olunur. I-ci kateqoriya &uuml;zrə bir ne&ccedil;ə lotereya bileti uduşlu olduqda, &ldquo;Cek Pot&rdquo;un məbləği udan lotereya biletləri arasında bərabər b&ouml;l&uuml;şd&uuml;r&uuml;l&uuml;r. Cari tirajda &ldquo;Cek Pot&rdquo; udulmadıqda bu məbləğ və cari tirajın uduş fondunun 1-10%-i n&ouml;vbəti tirajın &ldquo;Cek Pot&rdquo;una əlavə olunur.</p>
+<p>11.2.&nbsp; II kateqoriya &uuml;zrə qaliblər uduş fondunun&nbsp; bu kateqoriyaya aid hissəsini udur. II-ci kateqoriya &uuml;zrə bir ne&ccedil;ə lotereya bileti uduşlu olduqda, uduş fondunun həmin kateqoriyaya aid hissəsi udan lotereya biletləri arasında bərabər b&ouml;l&uuml;şd&uuml;r&uuml;l&uuml;r.</p>
+<p>11.3. III - XI kateqoriyalar &uuml;zrə qaliblər uduş fondunun bu kateqoriyaya aid hissəsini udur. Kateqoriya &uuml;zrə bir ne&ccedil;ə lotereya bileti uduşlu olduqda, uduş fondunun həmin kateqoriyaya aid hissəsi udan lotereya biletləri arasında bərabər b&ouml;l&uuml;şd&uuml;r&uuml;l&uuml;r.</p>
+<p>Tirajda III - XI kateqoriyalı uduşların olmadığı təqdirdə bu uduş kateqoriyası &uuml;&ccedil;&uuml;n ayrılmış məbləğ n&ouml;vbəti tirajın uyğun kateqoriyasına əlavə olunur.</p>
+<p>Lotereya iştirak&ccedil;ılarının həvəsləndirilməsi məqsədilə&nbsp; &ldquo;Cek Pot&rdquo;a &ldquo;Azərlotereya&rdquo; ASC-nin mənfəəti hesabına əlavə pul m&uuml;kafatı ayrıla bilər.&nbsp; &nbsp;</p>
+<p>Lotereya biletinin m&uuml;kafatı uduşlu kombinasiyalara uyğun olaraq yalnız bir kateqoriya &uuml;zrə m&uuml;əyyən olunur.&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+</div>]]></string>
+<string name="four_plus_four_ticket_selection_message"> - Aşağıdakı cədvəllərin hər birindən 4 ədəd nömrəni işarələyib YADDA SAXLA düyməsinə basın.</string>
+<string name="new_version_messsage">Proqramın yeni versiyası var, yeniləyə bilərsiz.</string>
+<string name="old_version_message">Proqramın versiyası köhnədir, yeni versiyanı yükləyin.</string>
+<string name="app_version">Proqram Versiyası</string>
+<string name="password_reset_success_message">Yeni şifrəniz daxil etidiyiniz email ünvanına göndərildi.</string>
+<string name="password_reset_error_message">Daxil etdiyiniz email ünvanı mövcud deyil.</string>
+<string name="password_reset">Şifrə yeniləmə</string>
+<string name="winning">uduş</string>
+<string name="winning_prize">Qazanılan məbləğ:\n %s AZN</string>
+     <string name="balance_withdraw_message">20 manata qədər olan ödənişləri yalnız poçt vasitəsi ilə əldə edə bilərsiz.</string>
+     <string name="profile_update_message">Sizin profil yeniləndi.</string>
+     <string name="withdraw_error_message">Daxil etdiyiniz məbləğ götürülə biləcək məbləğdən çoxdur.</string>
+     <string name="success">Müvəffəqiyyət</string>
+     <string name="withdraw_success_message">Ödənişiniz 3 iş günü ərzində yerinə yetiriləcək.</string>
+
+
+ </resources>
+
+
+

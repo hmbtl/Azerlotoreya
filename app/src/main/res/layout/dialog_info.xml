@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/dialog_title_example"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#aaa" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/dialog_alert_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="@string/dialog_message_example"
+            android:textSize="16sp"
+            android:visibility="visible" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/dialog_alert_checkbox"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_margin="15dp"
+            android:text="@string/dont_show"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#aaa" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <View
+            android:layout_width="0.1dp"
+            android:layout_height="match_parent"
+            android:background="#aaa" />
+
+        <Button
+            android:id="@+id/dialog_alert_right_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/dialog_button_right"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

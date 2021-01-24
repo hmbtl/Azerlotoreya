@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <nms.az.azerlotereya.customviews.SquareTextView
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:text="12"
+        android:gravity="center"
+        android:textColor="@drawable/number_text_selector"
+        android:textSize="18sp"
+        android:background="@drawable/number_selector" />
+

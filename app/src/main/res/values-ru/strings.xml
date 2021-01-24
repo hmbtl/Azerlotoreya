@@ -1,0 +1,444 @@
+<resources> 
+    <string name="app_name">Azerlotereya</string>  
+    <string name="hello_world">Hello world!</string> 
+    <string name="action_settings">Settings</string> 
+    <string name="amount">Сумма : xxx манат</string> 
+    <string name="did_you_forget_password"><u>Забыли пароль?</u></string>
+     
+    <string name="did_you_forget_pincode"><u>Забыли Pin код?</u></string>
+     <string name="login">Войти</string> <string name="registration">Регистрация</string> 
+    <string name="login_button_test">Пользователь уже существует? <b>Войти</b></string>
+     
+    <string name="register_button_test">Пользователь отсутствует? <b>Пройдите регистрацию</b></string>
+     <string name="register">Зарегистрироваться</string> 
+    <string name="pincode_save_information">Просьба запомнить этот <b><u>Pin код</u></b> . При последующих операциях вам будет необходимо.</string>
+     <string name="ok">OK</string> <string name="close">Закрыть</string> 
+    <string name="wrong_login">Неудачная попытка</string>
+     <string name="wrong_pincode">Неверный PIN код</string> 
+    <string name="wrong_login_message">Имя пользователя и пароль не соответствуют нашей системе. Пожалуйста, проверьте заново.</string>
+     
+    <string name="wrong_pincode_message">Pin код неверный. Пожалуйста, проверьте заново или <b>выберите "забыли пароль?"</b> чтобы войти в систему.</string>
+     <string name="empty_username_message">Пожалуйста, введите e-mail и попробуйте заново.</string> 
+    <string name="empty_pincode_message"> Пожалуйста, введите Pin код и попробуйте заново.</string> 
+    <string name="empty_password_message"> Пожалуйста, введите пароль и попробуйте заново.</string> 
+    <string name="username">E-mail</string> <string name="password">Пароль</string> 
+    <string name="pincode">Pin код</string> <string name="resume">Вперёд</string> 
+    <string name="send">Отправить</string> 
+    <string name="minimum_selection">Минимальное количество билетов</string>
+     <string name="minimum_selection_text">Для продолжения необходимо выбрать xxx рядов.</string> 
+    <string name="games">Игры</string> 
+    <string name="terms_and_conditions_text">При регистрации <u><b>вы соглашаетесь и принимаете</b></u> все, что указано в контракте.</string>
+     <string name="terms_and_conditions">Контракт</string> 
+    <string name="accept_age">Я подтверждаю, что мне 18 лет </string>
+     <string name="wrong">Ошибка</string> 
+    <string name="minimim_selection">Минимальный выбор</string> 
+    <string name="error_in_ticket">Произошла ошибка в вашем билете. Исправьте ошибку и попробуйте заново</string>
+     
+    <string name="error_in_cell">Введённая вами цифра не соответсвует этой ячейке, пожалуйста, попробуйте другую цифру.</string>
+     
+    <string name="error_ticket_ball_size">Вы не выбрали требуемое количество цифр, пожалуйста, попробуйте ещё раз.</string>
+     <string name="edit">Edit</string> <string name="remove">Remove</string> 
+    <string name="openDrawer">Open Drawer</string> <string name="closeDrawer">Close Drawer</string> 
+    <string name="my_profile">Мой Профиль</string> <string name="rules">Правила</string> 
+    <string name="settings">Параметры</string> <string name="tickets">Мои Билеты</string> 
+    <string name="about_us">О Нас</string> <string name="intro">Интро</string> 
+    <string name="logout">Выход</string> <string name="payment">Оплата</string> 
+    <string name="increase_balance">Пополнить баланс</string> 
+    <string name="payment_methods">Типы оплат</string>
+     <string name="wrong_email"> Неверный e-mail</string> 
+    <string name="wrong_email_text"> Введённый вами e-mail адрес не соответствует формату. Пожалуйста, проверьте правильность e-mail адреса и повторите попытку.</string>
+     <string name="name">Имя</string> 
+    <string name="surname">Фамилия</string> 
+    <string name="father_name">Имя отца</string> 
+    <string name="birthdate">Дата рождения</string> 
+    <string name="passport_id">Серия удостоверения личности</string>
+     <string name="phone_number">Мобильный номер</string> 
+    <string name="passord_again"> Мобильный номер</string>
+     <string name="email">E-mail</string>  
+    <string name="name_message">Пожалуйста, введите свое имя.</string> 
+    <string name="surname_message"> Пожалуйста, введите свою фамилию.</string> 
+    <string name="father_message"> Пожалуйста, введите имя отца.</string> 
+    <string name="birthdate_message"> Пожалуйста, введите дату рождения.</string> 
+    <string name="passport_id_message">Пожалуйста, введите серию удостоверения личности</string> 
+    <string name="phone_number_message"> Пожалуйста, введите мобильный номер.</string>
+     <string name="password_again_message"> Пожалуйста, подтвердите пароль</string> 
+    <string name="password_old_message"> Пожалуйста, введите текущий пароль</string> 
+    <string name="password_new_message"> Пожалуйста, введите новый пароль</string> 
+    <string name="password_new_repeat_message"> Пожалуйста, подтвердите новый пароль</string> 
+    <string name="email_message"> Пожалуйста, введите e-mail адрес.</string>    
+    <string name="password_match_text">Введённые цифры не соответствуют друг другу.</string>  
+    <string name="loading">Пожалуйста, подождите.</string> 
+    <string name="saving_templates">Сохраняется билет, пожалуйста, подождите.</string>
+     <string name="done">Завершен</string>  
+      <string name="dialog_edit_text_example">Example field</string> 
+    <string name="dialog_message_top_example">This is an example message. To show instructions depending on actions</string>
+     
+    <string name="dialog_message_example">This is an example message. Instead of it proper message will be shown on runtime</string>
+     <string name="dialog_button_left">Left Button</string> 
+    <string name="dialog_button_right">Right Button</string>
+     <string name="dialog_title_example">Example title</string>  
+    <string name="oops">Oops...</string> 
+    <string name="template_name_text">Шаблон не может быть пустым. Введите название и сохраните</string>
+     
+    <string name="template_create">Создать шаблон</string> 
+    <string name="template_create_minimum_error">Для создания шаблона сначала добавьте билет</string>
+       <string name="played_tickets">Сыгранные</string> 
+    <string name="will_play_tickets">Разыгрывается</string>
+     <string name="won_tickets">Выигранные</string> 
+    <string name="restore_password">Обновить пароль</string> 
+    <string name="template_tickets">Шаблон билеты</string>
+     <string name="template_ticket"> Шаблон билеты</string>  
+    <string name="payment_amount">Введите сумму для оплаты</string>
+      <string name="payment_general_instruction">xxx руководство по оплате</string> 
+    <string name="payment_azericard_instruction">Bank Of Baku онлайн оплата</string> 
+    <string name="payment_general_info">- <b>xxx</b> Подойдите в платежный терминал и введите ваш номер пользователя.\n- Далее вставьте наличные деньги в киоск и подождите.\n- Убедитесь, что номер пользователя указан верно и подтвердите, выбрав кнопку <b>ПОДТВЕРЖДАЮ</b>.\n- После этого деньги сядут на ваш счет. Баланс можно проверить, войдя в свой личный счет.</string>
+      <string name="check_ticket">Проверить билет</string>  <string name="balance">Баланс</string> 
+    <string name="balance_increase_message">Поздравляем, ваш баланс успешно пополнен, баланс можно проверить через главное меню. </string>
+      <string name="ticket">Билет</string> 
+    <string name="ticket_buy_message">Поздравляем, вы удачно приобрели билет.</string>
+      <string name="message_send">E-mail послан</string> 
+    <string name="wrong_credentials">Введённые вами e-mail и пароль неверные, попробуйте ещё раз, пожалуйста.</string>
+     
+    <string name="internet_connection_error">Сервер не отвечает, пожалуйста, убедитесь, что интернет соединение активно и попробуйте ещё раз .</string>
+     
+    <string name="password_reset_message">Если введённый вами e-mail адрес существует в сервере, в этом случае вы получите e-mail о смене пароля.</string>
+      <string name="password_old">Текущий пароль</string> 
+    <string name="password_new">Новый пароль</string> 
+     <string name="change_password">Сменить пароль</string> 
+    <string name="change_password_message">Пароль изменен успешно.</string>
+     <string name="template_delete_message">Шаблон удален успешно.</string> 
+    <string name="template_create_message"> Шаблон добавлен успешно.</string> 
+    <string name="user_create_message">Пользователь создан успешно.</string>  
+    <string name="fill_ticket_number_message">Пожалуйста, введите номер билета.</string> 
+    <string name="fill_draw_number_message"> Пожалуйста, введите номер тиража.</string> 
+    <string name="fill_game_name_message">Пожалуйста, введите название игры.</string> 
+    <string name="ticket_number">Номер билета</string> 
+    <string name="draw_number">Номер тиража</string> 
+    <string name="game_name">Название игры</string>
+      <string name="no_resuts_message">Результаты не загружены, попробуйте попозже.</string> 
+    <string name="no_tickets_found_message">Билет не найден, проверьте ещё раз.</string> 
+    <string name="wrong_game_name_message">Введите правильное название билета.</string>    
+    <string-array name="list_of_games">
+        <item>5/36</item>
+        <item>6/40</item>
+        <item>Binqo</item>
+        <item>Super Loto</item>
+        <item>Klassik Loto</item>
+    </string-array>
+
+
+    <string name="winners">Победители</string>
+    <string name="check_now">Проверить сейчас</string>
+    <string name="play_now">Начать игру</string>
+    <string name="next_draw_message">До следующего тиража \nосталось 2 дня</string>
+    <string name="last_winner_message">Последний победитель, 4 дня до</string>
+    <string name="next_draw_time">время 21:05</string>
+    <string name="fill_automatic">Добавить \nавтоматически</string>
+    <string name="select_numbers">Выберите\nцифры</string>
+    <string name="select_numbers_title"> Выберите цифры </string>
+    <string name="use_template">Использовать \nшаблон </string>
+    <string name="сreate_template">Создать новый \nшаблон</string>
+    <string name="buy">Купить</string>
+    <string name="number_of_tickets">Количество билетов : </string>
+    <string name="ticket_info">Информация о билетах</string>
+    <string name="check">Проверить</string>
+    <string name="ticket_selection_message"> ­ Используя нижнюю таблицу, выберите xxx цифр и нажмите кнопку СОХРАНИТЬ</string>
+    <string name="save">Сохранить</string>
+    <string name="pay">Пополнить баланс</string>
+    <string name="insert_amount">Введите сумму</string>
+    <string name="ticket_buy_success_message">Билет приобретен успешно.</string>
+    <string name="balance_reminder">Остаток баланса :</string>
+    <string name="buy_tickets">КУПИТЬ БИЛЕТ</string>
+    <string name="order_number">Номер заказа</string>
+    <string name="my_info">Моя информация</string>
+    <string name="password_new_again">Подтверждение пароля</string>
+    <string name="templates">Шаблоны</string>
+    <string name="empty_cells">Освободить \nячейки</string>
+    <string name="price">цена</string>
+    <string name="ticket_title">Билет #xxx</string>
+    <string name="cancel">ОТМЕНИТЬ</string>
+    <string name="reset">ОБНОВИТЬ</string>
+    <string name="no_balance_message">На вашем счету недостаточно средств, пожалуйста, пополните счет</string>
+    <string name="intro_message_1_title"><![CDATA[Mobil <br/><font color="#ffcf1e"> <b>Azerlotereya</b></font>]]></string>
+    <string name="intro_message_2_title"><![CDATA[<font color="#ffcf1e"><b>Игры</b></font> играть]]></string>
+    <string name="intro_message_3_title"><![CDATA[<font color="#ffcf1e"><b>Билеты</b></font> <br/>редактировать]]></string>
+    <string name="intro_message_4_title"><![CDATA[Оплата <font color="#ffcf1e"><b>на месте</b></font>]]></string>
+    <string name="intro_message_5_title"><![CDATA[И так <font color="#ffcf1e"><b>далее</b></font>]]></string>
+    <string name="intro_message_1">Отныне, используя мобильный телефон, вы сможете играть в ваши любимые лотерейные игры, проверять результаты и время тиражей </string>
+    <string name="intro_message_2">Выберите вид игры Azerlotereya и начните играть</string>
+    <string name="intro_message_3">Возможно генерировать любую комбинацию в любом виде игры</string>
+    <string name="intro_message_4">Без каких ­либо трудностей можете оплатить билет на месте</string>
+    <string name="intro_message_5">Кроме этого, возможны: смена профиля, информация о правилах игры и проверка билета </string>
+
+
+    <string name="template_name">Имя шаблона</string>
+    <string name="template_create_msg">Для создания шаблона сначала введите имя шаблона</string>
+
+    <string name="order_info">Информация о заказе</string>
+    <string name="customer_name">Заказчик:</string>
+    <string name="store_name">Магазин:</string>
+    <string name="total_order">Общий заказ:</string>
+    <string name="total_order_info">xxx x yyy билеты\nzzz манат</string>
+    <string name="tickets_small">билеты</string>
+    <string name="password_info">Данные пароль</string>
+
+    <string name="game_rule_5_36" formatted="false"><![CDATA[<p>В лототрон загружаются шары с номерами от 1 до 36, перемешиваются и определяются случайные 5 шаров. При совпадении номеров 5-и, 4-ех, 3-ех шаров с 5-ю, 4-мя, 3-мя номерами, указанными в одной строке (варианте) лотерейного билета, лотерейный билет (вариант) считается выигрышным. Билет (вариант) на котором совпали 5 цифр участвует в розыгрыше &laquo;Джек Пот&raquo;а.</p>
+<p><span style="color: #ff0000;"><strong>1-ая категория&nbsp;</strong></span>&nbsp;&nbsp;&nbsp;&rarr;&nbsp;&nbsp;билет (вариант), на котором совпали 5 номеров, выигрывает от 15 до 35% выигрышного фонда</p>
+<p><strong><span style="color: #3366ff;">2-ая категория</span>&nbsp;&nbsp;</strong>&rarr;&nbsp;билет (вариант), на котором совпали 4 номера, выигрывает от 15 до 35% выигрышного фонда</p>
+<p><span style="color: #00ff00;"><strong>3-я категория&nbsp;</strong></span>&rarr;&nbsp;билет (вариант), на котором совпали 3 номера, выигрывает от 30 до 70% выигрышного фонда</p>
+<p><strong>Правила розыгрыша&nbsp;&laquo;Джек Пот&raquo;а :</strong></p>
+<p>Джек Пот разыгрывается только в случае совпадения 5 номеров и в розыгрыше &laquo;Джек Пот&raquo;а участвуют только варианты на которых совпали 5 номеров. Шары от 1 до 36 вновь загружаются в лототрон, перемешиваются, и достается 1 (один) шар. При совпадении номера шара с любым из номеров цифр, указанных в варианте участвующем в розыгрыше &laquo;Джек Пот&raquo;а, &laquo;Джек Пот&raquo; считается выигранным.</p>
+<p>Вариант, выигравший &laquo;Джек Пот&raquo; получает только сумму &laquo;Джек Пот&raquo;а.</p>]]></string>
+    <string name="game_rule_6_40" formatted="false"><![CDATA[<p>В лототрон загружаются шары с номерами от 1 до 40, перемешиваются и определяются случайные 6 шаров. При совпадении номеров 6 &ndash;и, 5-и, 4-ех, 3-ех шаров с 6-ю, 5-ю, 4-мя, 3-мя номерами, указанными в одном (варианте) лотерейного билета, лотерейный билет (вариант) считается выигрышным.</p>
+<table width="564">
+<tbody>
+<tr>
+<td>
+<p><strong>1-ая категория</strong></p>
+</td>
+<td>
+<p>&nbsp;&rarr;</p>
+</td>
+<td>
+<p>билет (вариант), на котором совпали&nbsp;<strong>6 номеров</strong>, выигрывает &laquo;Джек Пот&raquo;.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>2-ая категория</strong></p>
+</td>
+<td>
+<p>&nbsp;&rarr;</p>
+</td>
+<td>
+<p>билет (вариант), на котором совпали&nbsp;<strong>5 номеров</strong>, выигрывает от 5 до 15% выигрышного</p>
+<p>фонда</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>3-я категория&nbsp;</strong></p>
+</td>
+<td>
+<p>&nbsp;&rarr;</p>
+</td>
+<td>
+<p>билет (вариант), на котором совпали&nbsp;<strong>4 номера</strong>, выигрывает от 20 до 40% &nbsp;выигрышного</p>
+<p>фонда</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>4-ая категория</strong></p>
+</td>
+<td>
+<p>&nbsp;&rarr;</p>
+</td>
+<td>
+<p>билет (вариант), на котором совпали&nbsp;<strong>3 номера</strong>, выигрывает от 40 до 60%&nbsp; выигрышного</p>
+<p>фонда</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>В случае, если &laquo;Джек Пот&raquo; выиграли несколько билетов, то сумма &laquo;Джек Пот&raquo;а делится между выигрышными билетами.</p>]]></string>
+    <string name="game_rule_binqo"><![CDATA[<p>На лотерейном билете "Бинго" отражена таблица, состоящая из 5 (пяти) строк, с 6 клетками в каждой из них. На каждом лотерейном билете отражены в общей сложности 25 (двадцать пять) цифр, по 5 (пять) цифр на каждой строке таблицы. Во время игры, из специального лототрона с пронумерованными от 1 до 60 шарами внутри, один за другим последовательно снимаются 54 (пятьдесят четыре) шара. Игра состоит из 5 (пяти) туров.</p>
+<p><strong>1 - &nbsp;В&nbsp;первом туре</strong>&nbsp;билет(ы) считается(считаются) выигрышным считается билет, на котором раньше всех заполнилась любая одна горизонтальная строка.&nbsp;Попавший(е) на выигрыш билет(ы) продолжает(ют) игру. Билет считается выигрышным денежного приза <strong><em>&ldquo;Джек Пот&rdquo;</em></strong>, если любая одна из его горизонтальных строк заполняется раньше всех остальных до предварительно объявленного хода. Билет, выигрыший денежного приза &ldquo;Джек Пот&rdquo;, продолжает игру.</p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>2 - Во</strong><strong>&nbsp;втором туре&nbsp;</strong>билет(ы) выигрышным&nbsp;считается(считаются) билет, на котором раньше всех заполнится любые две&nbsp;горизонтальные&nbsp;строки. Попавший(е) на выигрыш билет(ы) продолжает(ют) игру. В этом туре, билет считается попавшим на выигрыш денежного приза&nbsp;<strong><em>&ldquo;Мега Пот&rdquo;,&nbsp;</em></strong>если любые две из его горизонтальных строк заполняются раньше всех остальных до предварительно объявленного хода. Билет, попавший на выигрыш денежного приза &rdquo;Мега Пот&rdquo;, продолжает игру.</p>
+<p>&nbsp;</p>
+<p><strong>3 - На третьим туре&nbsp;</strong>билет(ы) считается(считаются) выигрышным, если любые три из его(их) горизонтальных строк заполняются раньше всех остальных. Попавший(е) на выигрыш билет(ы) продолжает(ют) игру. В этом туре, билет считается выигрышным денежного приза&nbsp;&nbsp;<strong><em>&ldquo;Бинго&rdquo;</em></strong>, если любые три из его горизонтальных строк заполняются раньше всех остальных до предварительно объявленного хода. Билет, выигрышным денежного приз&nbsp;&rdquo;Бинго&rdquo;, продолжает игру.</p>
+<p>&nbsp;</p>
+<p><strong>4 - В&nbsp;четвертом туре&nbsp;</strong>&nbsp;выигрышным считается(считаются) билет(ы) на котором,&nbsp;любые четыре из его(их) горизонтальных строк заполняются раньше всех остальных. Попавший(е) на выигрыш билет(ы) продолжает(ют) игру. В этом туре, билет выигрывает&nbsp;денежный&nbsp;приз<strong><em>&nbsp;&ldquo;Супер Бинго&rdquo;, </em></strong>если любые четыре из его горизонтальных строк заполняются раньше всех остальных до предварительно объявленного хода. Билет, попавший на выигрыш денежного приза &rdquo;Супер Бинго&rdquo;, продолжает игру.</p>
+<p>&nbsp;</p>
+<p><strong>5 - </strong><strong>В пятом туре&nbsp;</strong> билеты считается выигрышным, если заполняются все пять горизонтальных строк. В этом туре, билет считается попавшим на выигрыш денежного приза <strong><em>&ldquo;Фортуна&rdquo;,&nbsp;</em></strong>если все его клетки заполняются раньше всех остальных до предварительно объявленного хода (включительно). Пятый тур продолжается до окончания призового фонда, при минимальном количестве ходов 54 (пятьдесят четыре)</p>
+<p>&nbsp;</p>
+<p>Если 6 (шесть) цифр, определяемые перед началом игры после выпадения пронумерованных от 0 до 9 шаров&nbsp;из лототрона , совпадают с номером лотерейного билета, то этот билет выигрывает автомобиль<strong>Chevrolet "Aveo"</strong>. В случае совпадения выигрышного номера с непроданным лотерейным билетом, шары снова возвращаются в лототрон &nbsp;и определяется новый выигрышный номер.</p>
+<p>&nbsp;</p>
+<p>После этого, если 5 (пять) цифр, определяемых&nbsp;после выпадения пронумерованных от 0 до 9 шаров &nbsp;из лототрона , совпадают с последними 5-ю (пятью) цифрами номера лотерейного билета, то этот билет выигрывает 1 000 (одну тысячу) манатов.</p>
+<p>&nbsp;</p>
+<p>Если 4 (четыре) и три (3) цифры, определяемые путем снятия из лототрона по тому же принципу, совпадают с последними 4-я (четырьмя) и 3-я (тремя) цифрами номера лотерейного билета, то эти билеты выигрывают соответственно, 250 (двести пятьдесят) &nbsp;и 25 (двадцать пять) манатов.</p>
+<p>&nbsp;</p>]]></string>
+    <string name="game_rule_klassik"><![CDATA[<p>В&nbsp;игре&nbsp;используются пронумерованные от 1 до 90 шары (бочки). Шары (бочонки) помещаются в специальный лототрон (или мешок), перемешиваются и после этого один за другим последовательно снимаются. Во время основной игры из лототрона (мешка) выпадают 77 (семьдесят семь) штук шаров (бочонки ). Выпадшие из лототрона (мешка) шары (бочонки ) снова в лототрон (мешок) не возвращаются.</p>
+<p>На лотерейном билете расположены две игровые таблицы. Каждая основная таблица состоит из &nbsp;27 (двадцать семь) клеток (3 горизонтальных строк и 9 вертикальных столбцов).<br />Имея 5 (пять) цифр&nbsp;на каждой строке, в таблице размещены всего 15 цифр, а в каждом лотерейном билете размещены всего 30 (тридцать) цифр.</p>
+<p><strong>Игра состоит из трех туров:</strong></p>
+<p><strong>1.&nbsp;</strong>В первом туре&nbsp;билет считается &nbsp;выигрышным, если любая одна из горизонтальных строк лотерейного билета заполняется раньше всех остальных. На первом туре&nbsp;билет считается выигравшим &ldquo;Джек Пот&rdquo;, если любая одна из его горизонтальных строк заполняется раньше всех остальных до предварительно объявленного хода. Попавшие на выигрыш в&nbsp;первом туре&nbsp;билеты продолжают игру.</p>
+<p><strong>2.</strong>&nbsp;Во&nbsp;втором туре&nbsp;билет считается выигрышным , если любая из двух таблиц лотерейного билета заполняется раньше всех остальных. Во&nbsp;втором туре&nbsp;билет считается выигравшим&nbsp;&ldquo;МЕГА ПОТ&rdquo;, если любая из двух таблиц лотерейного билета заполняется раньше всех остальных до предварительно объявленного хода. В этом случае, второй тур считается завершенным. Попавшие на выигрыш во&nbsp;втором туре&nbsp;билеты продолжают игру.</p>
+<p><strong>3.</strong>&nbsp;Третий тур продолжается минимум до 75-го хода (включительно) и билет считается выигрышным , если любая из его таблиц заполняется (при заполнении обеих таблиц одного билета выигрыши суммируются). Первым выигрышем в этом туре бывает определенная сумма, которая устанавливается предварительно. При выигрыше нескольких билетов, эта сумма делится между ними поровну. Первые кандидаты на выигрыш (ожидающие) первого и второго туров основной игры награждаются.</p>
+<p>При заполнении обеих таблиц одного билета выигрыши суммируются.&nbsp;</p>
+<p>Если при проведении розыгрыша тиражной лотереи "Классическое лото" номера оставшихся шаров (бочонки ) совпадают минимум с 6-ю номерами, содержащимся в одной из таблиц лотерейного билета, то этот лотерейный билет выигрывает минимум 1 манат.&nbsp;</p>
+<p>В дополнение к основной игре разыгрываются поощрительные призы. В поощрительном туре по попавшему на выигрыш лотерейному билету оплачивается только наибольший выигрыш (другие выигрыши не прибавляются к этому выигрышу).</p>
+<p>Таким образом, до начала основной игры определяются 6 цифр посредством последовательного впадения&nbsp; пронумерованных от 1 до 9 шаров (бочонки ) из лототрона.</p>
+<p><strong>1</strong> - Если эти цифры полностью совпадают с номером лотерейного билета, то билет выигрывает автомобиль "Nissan Sunny". Если при розыгрыше автомобиля "Nissan Sunny" выигрышный номер попадает на непроданный билет, то игра снова продолжается до выигрыша автомобиля.</p>
+<p><strong>2 - </strong>Если эти цифры совпадают с последними 5-ю (пятью) цифрами номера лотерейного билета, то билет выигрывает 1000 (одну тысячу) манатов.</p>
+<p><strong>3 - </strong>Если эти цифры совпадают с последними 4-я (четырьмя) цифрами номера лотерейного билета, то билет выигрывает 200 (двести) манатов.</p>
+<p><strong>4 - </strong>Если эти цифры совпадают с последними 3-я (тремя) цифрами номера лотерейного билета, то билет выигрывает 20 (двадцать) манатов.</p>
+<p><strong>5 - </strong>Если эти цифры совпадают с последними 2-я (двумя) цифрами номера лотерейного билета, то билет выигрывает 2 (два) маната.</p>
+<p><strong>000000</strong>&nbsp; &rarr; &nbsp;Автомобиль <strong>Nissan Sunny</strong></p>
+<p><strong>*00000 </strong>&nbsp;&rarr; &nbsp;1000 манатов</p>
+<p><strong>**0000</strong>&nbsp; &rarr; &nbsp;200 манатов</p>
+<p><strong>***000</strong>&nbsp; &rarr; &nbsp;20 манатов</p>
+<p><strong>****00</strong>&nbsp; &rarr; &nbsp;2 манатов</p>]]></string>
+    <string name="draw">Тираж #</string>
+    <string name="date">время</string>
+    <string name="accept">Я принимаю</string>
+    <string name="agreement">Контракт</string>
+    <string name="terms_and_conditions_doc" formatted="false"><![CDATA[<p><strong>Пункт 1. Стороны</strong></p>
+<p>Между ОАО «Азерлотерея» (далее именуемое «Организатор»), расположенное по адресу: город Баку,  проспект Бюль-Бюля, 19 и фамилия/имя, личностью (далее именуемый «Участник»), указанной в части «Регистрация» сайта <a href="http://www.azerlotereya.com/">www.azerlotereya.com</a> заключён настоящий договор о нижеследующем:</p>
+<p><strong>Пункт 2 . Термины</strong></p>
+<p>В данном Договоре использованы нижеследующие термины:                                           «Организатор» (Виртуальный продавец) – юридическое лицо, действующее на основании договора и обеспечивающее все связи с участниками  лотерейных игр в виртуальных условиях (Интернет, мобильная  телефонная сеть и др. средства).<br /> «Участник» - физическое лицо, принявшее данный Договор для участия в онлайн лотерейных играх посредством сайта <a href="http://www.azerlotereya.com/">www.azerlotereya.com</a> Открытого акционерного Общества «Азерлотерея».<br /> «Онлайн лотерейные игры» - это онлайн лотерейные игры, организованные на сайте <a href="http://www.azerlotereya.com/">www.azerlotereya.com</a> ОАО «Азерлотерея».<br /> В онлайн лотерейных играх посредством сайте <a href="http://www.azerlotereya.com/">www.azerlotereya.com</a> утверждение продаж билетов – это виртуальный документ в случае востребования компенсации купленных билетов или компенсации игр, сведения отправляемые э-мейлом, смс и другими подобными путями, охватывающие сведения отправляемых игр/ купленных билетов или сведения, охватывающие другие причастные необходимые вопросы.<br /> Меню счёта – индивидуальный участок, на который заходят с интернет страницы <a href="http://www.azerlotereya.com/">www.azerlotereya.com</a> , где участники могут просмотреть в виртуальной среде действия денежных переводов, реализованных в  Личном Кабинетном Счёте, возможности реализации потребности банковских переводов или возможности выполнения  некоторых разрешённых операций.</p>
+<p><strong>Пункт 3. Условия участия в онлайн лотереи.</strong></p>
+<p>3.1 Любое лицо, кому исполнилось 18 лет может быть участником онлайн лотерейных игр ОАО «Азерлотерея» с условием принятия условий данного Договора.<br /> 3.2 Лицо, желающее принять участие в онлайн лотерейных играх должен ознакомиться с  правилами игры или принять эти правила.<br /> 3. Лицо, желающее принять участие в онлайн лотерейных играх получить информацию в самые короткие сроки посредством электронной почты после заполнения Регистрационной формы. Послу получения информации данное лицо может участвовать в Онлайн лотерейных играх в лице участника.</p>
+<p><strong>Пункт 4. Ответственность.</strong></p>
+<p>4.1. В результате использования любым третьим лицом Пароля участника принимает и подтверждает свою ответственность за происходящее, в случае невыполнения со своей стороны данных операций, преждевременного отказа претенциозных прав и отказа перед ОАО «Азерлотереи» и за выяснение того, кто является лицом, противоречащим данным правилам личностей.  Участник, знающий, какое третье лицо использует пароль, должен непременно доложить данную информацию  в ОАО «Азерлотерея».<br /> 4.2. В случае закрытия счёта участника, он заранее принимает, декларирует и подтверждает о не востребовании какой-либо компенсации от Организатора.<br /> 4.3. Участник несёт безоговорочную ответственность за перевод сумм на Счёт в Личном Кабинете. За ошибочные операции, произведённые Участником, Организатор не несёт никакой ответственности.<br /> 4.4  Онлайн Лотерейных Играх поступающие сведения, связанные с  Играми используются Организатором, считая их верными.<br /> 4.5. Приобретённые Участником лотерейные билеты никоим образом не могут быть ликвидированы или обменены.<br /> 4.6. В случае выигрыша Участника данная выигрышная сумма без необходимости осуществления дополнительной операции передаётся Организатором на виртуальный счёт абонента не позднее 24 часов. Сумму, находящуюся на счетё Участника и сумму, требуемую Участником, Организатор переводит на счёт Участника не позднее 2 (двух) банковских дней.<br /> 4.7. За время проведения онлайн лотерейных игр Организатор не несёт никакой ответственности за убыток нанесённый по причине перерыва связи, ошибочной запаздывающей передачи информации, включая запоздание, не поступление сведений информирования, возникших по техническим причинам, системной аварии, возможного любого вида прерывания, перерыва связи<br /> 4.8. Участник в связи с услугами, охватываемы данным Договором сообщает Организатору письменно, устно, Интернет и/или посредством электронным устройств о достоверности и актуальности доставляемой информации, Участник несёт ответственность за ошибочность сообщений и/или за весь убыток, который может быть нанесён за ошибочную доставку информации.<br /> 4.9. в направлении извещения информацией Участника, Организатор не несёт ответственность за ошибочность информации или не поступления сообщений информирования по техническим причинам, путаницы, созданной вследствие опоздания и /или непосредственно за убыток.<br /> 4.10. На период использования представленных Организатором услуг в случае нанесения убытка третьим лицам или ОАО «Азерлотерея», за данные убытки принимает, декларирует и подтверждает о собственной ответственности.<br /> 4.11. В результате какого-либо взлома базы информаций или Интернет сайта ОАО «Азерлотереея», за переход информаций Участника к недоброжелательным пользователям или за результаты, возникшие вследствие использования данной информации ответственность  не несёт.</p>
+<p><strong>Пункт 5. Разрешение спорных вопросов.</strong></p>
+<p>5.1. Разрешение спорных и неопределённых вопросов должны быть разрешены на основе существующего законодательства Азербайджанской Республики.<br /> 5.2 Лица, желающие стать участниками заранее подтверждает о прочтении всех пунктов данного Договора, о согласии и безоговорочном принятии всех пунктов в содержании.</p>
+<p>Дополнительная информация.</p>
+<p style="text-align: left;">ОАО «Азерлотерея», город Баку,  проспект Бюль-Бюля, 19<br /> Телефон 441-45-15<br /> Факс:      012 493-97-93<br /> Адрес электронной почты: <a href="mailto:azerlotereya@azeronline.com">azerlotereya@azeronline.com</a> <br /> Адрес в Интернете: <a href="http://www.azerlotereya.com/">www.azerlotereya.com</a></p>]]></string>
+
+   
+   
+   <string name="game_rule_super" formatted="false"><![CDATA[<p>Цена лотерейного билета: 1 (один) манат.</p>
+<p><strong>Правило розыгрыша призового фонда:</strong></p>
+<p>В игре используются шары (или бочонки), пронумерованные от 1 до 90.</p>
+<p>Шары (бочонки) помещаются в специальный лототрон (или мешок),</p>
+<p>перемешиваются и после этого снимаются последовательно один за другим.</p>
+<p>Во время основной игры из лототрона (мешка) выпадают не менее 72</p>
+<p>(семьдесят две) штуки шара (бочонки). Суть игры состоит из совпадения</p>
+<p>номеров, выпавших из лототрона (или мешка) шаров (бочков), с указанными</p>
+<p>на таблицах лотерейного билета цифрами.</p>
+<p>На лотерейном билете расположены три игровые таблицы.</p>
+<p>Игра состоит из трех туров:</p>
+<p><strong>Если в первом туре любая одна из горизонтальных строк лотерейного</strong></p>
+<p><strong>билета заполняется раньше всех остальных, то билет считается</strong></p>
+<p><strong>выигрышным.</strong></p>
+<p>Если в первом туре любая одна из его горизонтальных строк заполняется</p>
+<p>раньше всех остальных до предварительно объявленного хода</p>
+<p>(включительно), то билет считается выигравшим &ldquo;Джек Пот&rdquo;. Попавшие на</p>
+<p>выигрыш в первом туре билеты продолжают игру.</p>
+<p><strong>Если во втором туре любая из таблиц лотерейного билета заполняется</strong></p>
+<p><strong>раньше всех остальных, то билет считается выигравшим &laquo;12000 тысяч&raquo;</strong></p>
+<p><strong>манат.</strong></p>
+<p>В случае выигрыша автомобиля &ldquo;Kia Rio&rdquo; одним или несколькими билетами,</p>
+<p>стоимость автомобиля делится между выигравшими лотерейными билетами</p>
+<p>в равных частях.</p>
+<p>Если во втором туре любая из таблиц лотерейного билета заполняется</p>
+<p>раньше всех остальных до предварительно объявленного хода</p>
+<p>(включительно), то билет считается выигравшим &ldquo;Meгa Пoт&rdquo;. В этом случае,</p>
+<p>второй тур считается завершенным. Попавшие на выигрыш во втором туре</p>
+<p>билеты продолжают игру. В случае выигрыша&ldquo;Meгa Пoт&rdquo; во втором туре,</p>
+<p>сумма, выделенная для второго тура (стоимость автомобиля&ldquo;Kia Rio&rdquo;), не</p>
+<p>включается в данный выигрыш. Попавший на выигрыш во втором туре билет</p>
+<p>продолжает игру.</p>
+<p><strong>Третий тур продолжается минимум до 72-го хода (включительно) и</strong></p>
+<p><strong>билет, любая из таблиц которого заполняется, считается выигрышным</strong></p>
+<p>(в случае заполнении двух или трех таблиц одного билета выигрыши</p>
+<p>суммируются).</p>
+<p>Первые кандидаты на выигрыш (ожидающие) первого и второго туров</p>
+<p>основной игры награждаются. Если при проведении розыгрыша тиражной</p>
+<p>лотереи "Супер Лото" номера оставшихся в лототроне (мешке) шаров</p>
+<p>(бочонок) совпадают минимум с 6-ю цифрами, содержащимися в одной из</p>
+<p>таблиц лотерейного билета, то этот лотерейный билет выигрывает минимум</p>
+<p>1 манат.</p>]]></string>
+    <string name="general_rules">Общие правила</string>
+    <string name="game_rules">правила игры</string>
+    <string name="general_rules_text" formatted="false"><![CDATA[Если сумма выигрышa превысит <b>2000 АZN</b> , то для получение выигрыша нужно обратиться в компанию <font color="red"><b>Azerlotereya</b></font> : ]]></string>
+
+    <string name="account">Счет</string>
+    <string name="distrib_text">Официальный дистрибьютор компании Azerlotereya</string>
+    <string name="withdraw_balance">Забрать деньги</string>
+    <string name="card_number">Номер карты</string>
+    <string name="call_to_loto">Обратитесь в Azerlotereya</string>
+    <string name="insert_card">Введите номер карты.</string>
+    <string name="user_id">ПОЛЬЗОВАТЕЛЬ #2512</string>
+
+    <string name="lotocard_instructions">Введите 16 значный код который указан на карте , предварительно стерев защитное покрытие что бы ввести в соответсвующее поле.</string>
+    <string name="insert_number">Введите щифр</string>
+    <string name="error_lotocard">Шифр неверный.</string>
+    <string name="success_lotocard">xxx AZN добавлен к вашему балансу. Номер транзакции: yyy.</string>
+
+
+
+    <string name="address_id_message">Zəhmət olmasa qeydiyyatda olduğunuz ünvanı daxil edin.</string>
+    <string name="address">Место прописки.</string>
+
+
+    <string name="transaction_errors">Ошибки</string>
+    <string name="transaction_success">Операции</string>
+
+    <string-array name="transaction_type_array">
+        <item>Пополнение баланса</item>
+        <item>Добавление приза</item>
+        <item>Купить билет</item>
+        <item>Выплата выигрыша</item>
+    </string-array>
+
+    <string-array name="transaction_method_array">
+        <item>Банковская карта</item>
+        <item>Карта оплаты</item>
+        <item>Через почту</item>
+        <item>Через банковскую карту</item>
+    </string-array>
+    <string name="transactions">Операции</string>
+    <string name="info">Информация</string>
+    <string name="withdraw_information">Снять возможно только ту сумму, которая получена в результате выигрыша. Сумму выигрыша в размере до 20 манат можно получить только в почтовом отделении города.
+После перевода на почту, деньги можно забрать в любом почтовом отделении, предъявив свое удостоверение личности. Помимо этого, сумму выигрыша выше 20 манат можно получить как на почте, так и перечислением на карту.</string>
+
+    <string name="dont_show">Больше не показывать это сообщение.</string>
+    <string name="withdraw_money">Сумма, снимаемая со счета:</string>
+    <string name="transaction_error_card">Произошла ошибка во время трансфера денег на карту. Проверьте номер карты или статус карты.</string>
+<string name="transaction_error_azerpost">Произошла ошибка во время трансфера денег в Azerpoçt. Проверьте адрес в профиле. Адрес должен совподать с адресом в профиле.</string>
+    <string name="address_fill_message">Укажите адрес прописки , который указан на удостоверении личности</string>
+    <string name="payment_success">Оплата произведена успешно.</string>
+    <string name="payment_fail">Оплата произведена безуспешно.</string>
+    <string name="soon_text">Ckopo...</string>
+    <string name="next_draw_info">До следующего тиража осталось %1$s.</string>
+    <string name="game_rule_four_plus_four" formatted="false"><![CDATA[<div class="grid_9">
+<div class="inner">
+<div class="top_n">
+<div class="cs_description">
+<div>
+<p>Uduş fondunun oynanılması iki lototron vasitəsi ilə həyata ke&ccedil;irilir. Hər iki lototrona 1-dən 20-dək n&ouml;mrələnmiş şarlar yerləşdirilir, qarışdırılır və birinci lototrondan &ccedil;ıxarılmış n&ouml;mrələr &ldquo;A&rdquo; l&ouml;vhəsi &uuml;&ccedil;&uuml;n, ikinci lototrondan &ccedil;ıxarılmış n&ouml;mrələr &ldquo;B&rdquo; l&ouml;vhəsi &uuml;&ccedil;&uuml;n olmaqla hər lototrondan 4 (d&ouml;rd) n&ouml;mrə təyin olunur. Oyunun mahiyyəti, hər lototrondan &ccedil;ıxmış şarların n&ouml;mrələrinin lotereya biletinin uyğun l&ouml;vhələrində əks olunmuş rəqəmlər ilə &uuml;st-&uuml;stə d&uuml;şməsindən ibarətdir. Belə ki, oyunun nəticələri bir biletin iki l&ouml;vhəsində aşağıdakı uyğunluqla m&uuml;əyyən edilir:</p>
+<p>&ldquo;4+4&rdquo; &ndash; <strong>CEK</strong> <strong>POT</strong>, &ldquo;4+3&rdquo;, &ldquo;4+2&rdquo;, &ldquo;4+1&rdquo;, &ldquo;4+0&rdquo;, &ldquo;3+4&rdquo;, &ldquo;3+3&rdquo;, &ldquo;3+2&rdquo;, &ldquo;3+1&rdquo;, &ldquo;3+0&rdquo;, &ldquo;2+4&rdquo;, &ldquo;2+3&rdquo;, &ldquo;2+2&rdquo;, &ldquo;2+1&rdquo;, &ldquo;1+4&rdquo;, &ldquo;1+3&rdquo;, &ldquo;1+2&rdquo;, &ldquo;0+4&rdquo;, &ldquo;0+3&rdquo;&nbsp; &ndash; uyğun olan biletlər uduşludur. Lotereya biletinin uduşu bu kombinasiyalara uyğun&nbsp; kateqoriya &uuml;zrə m&uuml;əyyən olunur.</p>
+<p>Biletin uduşu oyunda təyin olunmuş n&ouml;mrələrin biletin &uuml;zərindəki l&ouml;vhələrdə qeyd</p>
+<p>olunmuş rəqəmlərlə uyğunluğu əsasında aşağıdakı 11 (on bir) kateqoriya &uuml;zrə b&ouml;l&uuml;n&uuml;r:</p>
+<p>I kateqoriya - hər iki l&ouml;vhədə 4 n&ouml;mrənin uyğunluğu olan bilet(lər) &ldquo;Cek Pot&rdquo;u qazanır</p>
+<p>II kateqoriya - bir l&ouml;vhədə 4 n&ouml;mrə və digər l&ouml;vhədə 3 n&ouml;mrə uyğunluğu olan bilet(lər) uduş fondunun 1-10%-ni qazanır</p>
+<p>III kateqoriya - bir l&ouml;vhədə 4 n&ouml;mrə və digər l&ouml;vhədə 2 n&ouml;mrə uyğunluğu olan bilet(lər) uduş fondunun 1-10%-ni qazanır</p>
+<p>IV kateqoriya - bir l&ouml;vhədə 4 n&ouml;mrə və digər l&ouml;vhədə 1 n&ouml;mrə uyğunluğu olan bilet(lər) uduş fondunun 1-10%-ni qazanır</p>
+<p>V kateqoriya - bir l&ouml;vhədə 4 n&ouml;mrə və digər l&ouml;vhədə 0 n&ouml;mrə uyğunluğu olan bilet(lər) &nbsp;uduş fondunun 1-10%-ni qazanır</p>
+<p>VI kateqoriya - hər iki l&ouml;vhədə 3 n&ouml;mrə uyğunluğu olan bilet(lər) uduş fondunun 1-10%-ni qazanır</p>
+<p>VII kateqoriya - bir l&ouml;vhədə 3 n&ouml;mrə və digər l&ouml;vhədə 2 n&ouml;mrə uyğunluğu olan bilet(lər) uduş fondunun 5-25%-ni qazanır</p>
+<p>VIII kateqoriya - bir l&ouml;vhədə 3 n&ouml;mrə və digər l&ouml;vhədə 1 n&ouml;mrə uyğunluğu olan bilet(lər) uduş fondunun 5-25%-ni qazanır</p>
+<p>IX kateqoriya - bir l&ouml;vhədə 3 n&ouml;mrə və digər l&ouml;vhədə 0 n&ouml;mrə uyğunluğu olan bilet(lər) uduş fondunun 5-25%-ni qazanır</p>
+<p>X kateqoriya - hər iki l&ouml;vhədə 2 n&ouml;mrə uyğunluğu olan bilet(lər) uduş fondunun 5-25%-ni qazanır</p>
+<p>XI kateqoriya - bir l&ouml;vhədə 2 n&ouml;mrə və digər l&ouml;vhədə 1 n&ouml;mrə uyğunluğu olan bilet(lər) uduş fondunun 15-45%-ni qazanır</p>
+<p>Texniki səbəblərdən lototrondan istifadə etmək m&uuml;mk&uuml;n olmadıqda, uduşlu n&ouml;mrələrin təyin edilməsi torba və &ccedil;əlləklər vasitəsi ilə həyata ke&ccedil;iriləcəkdir.</p>
+<p>11.&nbsp;Hər tirajın uduş fondu kateqoriyalar &uuml;zrə aşağıdakı qaydada b&ouml;l&uuml;şd&uuml;r&uuml;l&uuml;r:</p>
+<p>11.1. &nbsp;I kateqoriya &uuml;zrə qaliblər &ldquo;Cek Pot&rdquo;u udur, cari tirajın uduş fondunun 1-10%-i n&ouml;vbəti tirajın &ldquo;Cek Pot&rdquo;una əlavə olunur. I-ci kateqoriya &uuml;zrə bir ne&ccedil;ə lotereya bileti uduşlu olduqda, &ldquo;Cek Pot&rdquo;un məbləği udan lotereya biletləri arasında bərabər b&ouml;l&uuml;şd&uuml;r&uuml;l&uuml;r. Cari tirajda &ldquo;Cek Pot&rdquo; udulmadıqda bu məbləğ və cari tirajın uduş fondunun 1-10%-i n&ouml;vbəti tirajın &ldquo;Cek Pot&rdquo;una əlavə olunur.</p>
+<p>11.2.&nbsp; II kateqoriya &uuml;zrə qaliblər uduş fondunun&nbsp; bu kateqoriyaya aid hissəsini udur. II-ci kateqoriya &uuml;zrə bir ne&ccedil;ə lotereya bileti uduşlu olduqda, uduş fondunun həmin kateqoriyaya aid hissəsi udan lotereya biletləri arasında bərabər b&ouml;l&uuml;şd&uuml;r&uuml;l&uuml;r.</p>
+<p>11.3. III - XI kateqoriyalar &uuml;zrə qaliblər uduş fondunun bu kateqoriyaya aid hissəsini udur. Kateqoriya &uuml;zrə bir ne&ccedil;ə lotereya bileti uduşlu olduqda, uduş fondunun həmin kateqoriyaya aid hissəsi udan lotereya biletləri arasında bərabər b&ouml;l&uuml;şd&uuml;r&uuml;l&uuml;r.</p>
+<p>Tirajda III - XI kateqoriyalı uduşların olmadığı təqdirdə bu uduş kateqoriyası &uuml;&ccedil;&uuml;n ayrılmış məbləğ n&ouml;vbəti tirajın uyğun kateqoriyasına əlavə olunur.</p>
+<p>Lotereya iştirak&ccedil;ılarının həvəsləndirilməsi məqsədilə&nbsp; &ldquo;Cek Pot&rdquo;a &ldquo;Azərlotereya&rdquo; ASC-nin mənfəəti hesabına əlavə pul m&uuml;kafatı ayrıla bilər.&nbsp; &nbsp;</p>
+<p>Lotereya biletinin m&uuml;kafatı uduşlu kombinasiyalara uyğun olaraq yalnız bir kateqoriya &uuml;zrə m&uuml;əyyən olunur.&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+</div>]]></string>
+ <string name="four_plus_four_ticket_selection_message"> ­ Используя нижнюю таблицы, выберите 4 цифр из каждого и нажмите кнопку СОХРАНИТЬ</string>
+    <string name="new_version_messsage">Ест новая версия программы, можете обновить.</string>
+    <string name="old_version_message">Версия программы старая, загрузите новую версию.</string>
+    <string name="app_version">Версия Приложения</string>
+    <string name="password_reset_success_message">Новый пароль отправлен на Вашу электронную почту.</string>
+    <string name="password_reset_error_message">Введенной Вами электронной почты не существует.</string>
+    <string name="password_reset">Обновление пароля</string>
+    <string name="winning">выигрыш</string>
+    <string name="winning_prize">Выигранная сумма:\n %s AZN</string>
+    <string name="balance_withdraw_message">Сумму выигрыша в размерe до 20 манат можно получить только в почтовом отделении города.</string>
+    <string name="profile_update_message">Ваш профиль обновлен.</string>
+    <string name="withdraw_error_message">Введенная вами сумма превышает сумму выигрыша.</string>
+    <string name="success">Удачно</string>
+    <string name="withdraw_success_message">Оплата будет произведена в течение 3-х рабочих дней.</string>
+</resources>

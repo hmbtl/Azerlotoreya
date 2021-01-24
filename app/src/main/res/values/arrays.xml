@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="indicator_colors">
+        <item>@color/colorPrimaryDark</item>
+        <item>@color/colorPrimaryDark</item>
+        <item>@color/colorPrimaryDark</item>
+        <item>@color/colorPrimaryDark</item>
+    </array>
+
+    <array name="transaction_type_icon_array">
+        <item>@drawable/ic_trans_up</item>
+        <item>@drawable/ic_trans_win</item>
+        <item>@drawable/ic_trans_down</item>
+        <item>@drawable/ic_trans_paid</item>
+    </array>
+</resources>
